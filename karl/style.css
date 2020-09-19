@@ -8,6 +8,13 @@
     :: Last Updated: 09 January 2018
     ---------------------------------------------------------- */
 
-    /* -------------------------------------------------
-    ============ PLACE YOUR CUSTOM CSS HERE ============
-    ------------------------------------------------- */
+    /*Product Details page */
+
+    /*Added these to adjust the width of option boxes*/
+    .single_product_desc .widget.size .widget-desc .long-desc {
+        width: 80px;
+    }
+
+    .single_product_desc .widget.size .widget-desc .medium-desc {
+        width: 45px;
+    }

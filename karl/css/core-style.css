@@ -1724,12 +1724,6 @@ img {
     line-height: 33px;
 }
 
-.single_product_desc .widget.size .widget-desc a:hover,
-.single_product_desc .widget.size .widget-desc a:focus {
-    border: 2px solid #ff084e;
-    background-color: #ff084e;
-}
-
 .single_product_desc .widget.size {
     border-bottom: none;
     padding-bottom: 0;
