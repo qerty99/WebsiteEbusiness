@@ -28,7 +28,7 @@
                 <div class="top_single_area d-flex align-items-center">
                   <!-- Logo Area -->
                   <div class="top_logo"> <a href="#"><img src="img/core-img/logo1.png"
-                        alt=""></a> </div>
+                        alt="" style="width: 43px; height: 59px;"></a> </div>
                   <!-- Cart & Menu Area -->
                   <div class="header-cart-menu d-flex align-items-center ml-auto">
                     <!-- Cart Area -->
