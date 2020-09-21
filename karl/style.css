@@ -18,3 +18,12 @@
     .single_product_desc .widget.size .widget-desc .medium-desc {
         width: 45px;
     }
+
+    /*Custom Keyboard page */
+    .custom-keyboard {
+        max-width: 640px;
+        margin: auto;
+        padding: 10;
+    }
+
+    
