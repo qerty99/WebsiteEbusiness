@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <!-- Title  -->
-    <title>Suited Switch | SA keycaps</title>
+    <title>Suited Switch | Cherry keycaps</title>
     <!-- Favicon  -->
     <link rel="icon" href="img/core-img/favicon.ico">
     <!-- Core Style CSS -->
@@ -78,8 +78,33 @@
                     <!-- Cart Area -->
                     <div class="cart"> <a href="#" id="header-cart-btn" target="_blank"><span
 
-                          class="cart_quantity">0</span> Your Bag $0.00</a>
-                      <!-- Cart List Area Start --> </div>
+                          class="cart_quantity">2</span> Your Bag $179.98</a>
+                      <!-- Cart List Area Start -->
+                      <ul class="cart-list">
+                        <li> <a href="#" class="image"><img src="img/product-img/keycaps/ch-black.png"
+
+                              class="cart-thumb" alt=""></a>
+                          <div class="cart-item-desc">
+                            <h6><a href="#">Cherry keycaps (black)</a></h6>
+                            <p>1x - <span class="price">$89.99</span></p>
+                          </div>
+                          <span class="dropdown-product-remove"><i class="icon-cross"></i></span>
+                        </li>
+                        <li> <a href="#" class="image"><img src="img/product-img/keycaps/sa-black.png"
+
+                              class="cart-thumb" alt=""></a>
+                          <div class="cart-item-desc">
+                            <h6><a href="#">SA keycaps (black)</a></h6>
+                            <p>1x - <span class="price">$89.99</span></p>
+                          </div>
+                          <span class="dropdown-product-remove"><i class="icon-cross"></i></span>
+                        </li>
+                        <li class="total"> <span class="pull-right">Total:
+                            $179.98</span> <a href="cart.html" class="btn btn-sm btn-cart">Cart</a>
+                          <a href="checkout-1.html" class="btn btn-sm btn-checkout">Checkout</a>
+                        </li>
+                      </ul>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -174,7 +199,7 @@
                 <li class="breadcrumb-item"><a href="keycaps.html">Keycaps</a></li>
                 <li class="breadcrumb-item active">SA Keycaps</li>
               </ol>
-              <!-- btn --> <a href="keycaps.html" class="backToHome d-block"> Back to
+              <!-- btn --> <a href="#" class="backToHome d-block"> Back to
                 Category</a> </div>
           </div>
         </div>
@@ -190,40 +215,40 @@
                   <ol class="carousel-indicators">
                     <li class="active" data-target="#product_details_slider" data-slide-to="0"
 
-                      style="background-image: url(img/product-img/keycaps/sa-blue.png);">
+                      style="background-image: url(img/product-img/keycaps/ch-blue.png);">
                       <br>
                     </li>
                     <li data-target="#product_details_slider" data-slide-to="1"
 
-                      style="background-image: url(img/product-img/keycaps/sa-white.png);">
+                      style="background-image: url(img/product-img/keycaps/ch-white.png);">
                       <br>
                     </li>
                     <li data-target="#product_details_slider" data-slide-to="2"
 
-                      style="background-image: url(img/product-img/keycaps/sa-black.png);">
+                      style="background-image: url(img/product-img/keycaps/ch-black.png);">
                       <br>
                     </li>
                     <li data-target="#product_details_slider" data-slide-to="3"
 
-                      style="background-image: url(img/product-img/keycaps/sa-pink.png);">
+                      style="background-image: url(img/product-img/keycaps/ch-green.png);">
                       <br>
                     </li>
                   </ol>
                   <div class="carousel-inner">
-                    <div class="carousel-item active"> <a class="gallery_img" href="img/product-img/keycaps/sa-blue.png">
-                        <img class="d-block w-100" src="img/product-img/keycaps/sa-blue.png"
+                    <div class="carousel-item active"> <a class="gallery_img" href="img/product-img/keycaps/ch-blue.png">
+                        <img class="d-block w-100" src="img/product-img/keycaps/ch-blue.png"
 
                           alt="First slide"> </a> </div>
-                    <div class="carousel-item"> <a class="gallery_img" href="img/product-img/keycaps/sa-white.png">
-                        <img class="d-block w-100" src="img/product-img/keycaps/sa-white.png"
+                    <div class="carousel-item"> <a class="gallery_img" href="img/product-img/keycaps/ch-white.png">
+                        <img class="d-block w-100" src="img/product-img/keycaps/ch-white.png"
 
                           alt="Second slide"> </a> </div>
-                    <div class="carousel-item"> <a class="gallery_img" href="img/product-img/keycaps/sa-black.png">
-                        <img class="d-block w-100" src="img/product-img/keycaps/sa-black.png"
+                    <div class="carousel-item"> <a class="gallery_img" href="img/product-img/keycaps/ch-black.png">
+                        <img class="d-block w-100" src="img/product-img/keycaps/ch-black.png"
 
                           alt="Third slide"> </a> </div>
-                    <div class="carousel-item"> <a class="gallery_img" href="img/product-img/keycaps/sa-pink.png">
-                        <img class="d-block w-100" src="img/product-img/keycaps/sa-pink.png"
+                    <div class="carousel-item"> <a class="gallery_img" href="img/product-img/keycaps/ch-green.png">
+                        <img class="d-block w-100" src="img/product-img/keycaps/ch-green.png"
 
                           alt="Fourth slide"> </a> </div>
                   </div>
@@ -232,7 +257,7 @@
             </div>
             <div class="col-12 col-md-6">
               <div class="single_product_desc">
-                <h4 class="title"><a href="#">SA Keycaps</a></h4>
+                <h4 class="title"><a href="#">MX Cherry Keycaps</a></h4>
                 <h4 class="price">$ 89.99</h4>
                 <p class="available">Available: <span class="text-muted">In
                     Stock</span></p>
@@ -250,7 +275,7 @@
                       <li><a href="#" ,="" class="medium-desc">Blue</a></li>
                       <li><a href="#" ,="" class="medium-desc">White</a></li>
                       <li><a href="#" ,="" class="medium-desc">Black</a></li>
-                      <li><a href="#" ,="" class="medium-desc">Pink</a></li>
+                      <li><a href="#" ,="" class="medium-desc">Green</a></li>
                     </ul>
                   </div>
                   <p></p>
@@ -291,7 +316,7 @@
                         <div class="card-body">
                           <p>60% 80% 100% Keycaps</p>
                           <p>Suit for different cases</p>
-                          <p>Available in Blue, White, Black &amp; Pink</p>
+                          <p>Available in Blue, White, Black &amp; Green</p>
                         </div>
                       </div>
                     </div>
@@ -397,7 +422,7 @@
                 <!-- Single gallery Item -->
                 <div class="single_gallery_item">
                   <!-- Product Image -->
-                  <div class="product-img"> <img src="img/product-img/keycaps/ch-blue.png"
+                  <div class="product-img"> <img src="img/product-img/keycaps/sa-black.png"
 
                       alt="">
                     <div class="product-quicview"> <a href="#" data-toggle="modal"
@@ -407,7 +432,7 @@
                   <!-- Product Description -->
                   <div class="product-description">
                     <h4 class="product-price">$89.90</h4>
-                    <p>Cherry Blue Keycaps</p>
+                    <p>SA Black Keycaps</p>
                     <!-- Add to Cart --> <a href="#" class="add-to-cart-btn">ADD
                       TO CART</a> </div>
                 </div>
@@ -465,7 +490,7 @@
                 <!-- Single gallery Item -->
                 <div class="single_gallery_item">
                   <!-- Product Image -->
-                  <div class="product-img"> <img src="img/product-img/keycaps/ch-green.png"
+                  <div class="product-img"> <img src="img/product-img/keycaps/sa-white.png"
 
                       alt="">
                     <div class="product-quicview"> <a href="#" data-toggle="modal"
@@ -475,7 +500,7 @@
                   <!-- Product Description -->
                   <div class="product-description">
                     <h4 class="product-price">$89.90</h4>
-                    <p>Cherry Green Keycaps</p>
+                    <p>SA White Keycaps</p>
                     <!-- Add to Cart --> <a href="#" class="add-to-cart-btn">ADD
                       TO CART</a> </div>
                 </div>
