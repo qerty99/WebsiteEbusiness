@@ -26,4 +26,6 @@
         padding: 10;
     }
 
-    
+   .custom-keyboard p {
+       text-align: center
+   }
