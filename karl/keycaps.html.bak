@@ -254,7 +254,7 @@
                 <div class="widget catagory mb-50">
                   <!--  Side Nav  -->
                   <div class="nav-side-menu">
-                    <h6 class="mb-0">Catagories</h6>
+                    <h6 class="mb-0">Categories</h6>
                     <div class="menu-list">
                       <ul id="menu-content2" class="menu-content collapse out">
                         <!-- Single Item -->
@@ -307,8 +307,8 @@
                     <div class="product-description">
                       <h4 class="product-price">$89.90</h4>
                       <p>Cherry keycaps</p>
-                      <!-- Add to Cart --> <a href="cherry_keycaps.html" class="add-to-cart-btn">ADD
-                        TO CART</a> </div>
+                      <!-- Add to Cart --> <a href="cherry_keycaps.html" class="add-to-cart-btn">View
+                        Details</a> </div>
                   </div>
                   <!-- Single gallery Item -->
                   <div class="col-12 col-sm-6 col-lg-4 single_gallery_item wow fadeInUpBig"
@@ -327,8 +327,8 @@
                     <div class="product-description">
                       <h4 class="product-price">$89.90</h4>
                       <p>SA keycaps</p>
-                      <!-- Add to Cart --> <a href="sakeycaps.html" class="add-to-cart-btn">ADD
-                        TO CART</a> </div>
+                      <!-- Add to Cart --> <a href="sakeycaps.html" class="add-to-cart-btn">View
+                        Details</a> </div>
                   </div>
                   <!-- Single gallery Item -->
                   <!-- Single gallery Item -->

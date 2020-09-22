@@ -149,7 +149,7 @@
 
                             aria-haspopup="true" aria-expanded="false">Store</a>
                           <div class="dropdown-menu" aria-labelledby="karlDropdown">
-                            <a class="dropdown-item" href="cases.html">Cases</a>
+                            <a class="dropdown-item" href="cases-shop.html">Cases</a>
                             <a class="dropdown-item" href="pcb.html">PCB</a> <a
 
                               class="dropdown-item" href="keycaps.html">Keycaps</a>
@@ -197,10 +197,10 @@
               <ol class="breadcrumb d-flex align-items-center">
                 <li class="breadcrumb-item"><a href="index.html">Home</a></li>
                 <li class="breadcrumb-item"><a href="keycaps.html">Keycaps</a></li>
-                <li class="breadcrumb-item active">SA Keycaps</li>
+                <li class="breadcrumb-item active">MX Cherry Keycaps</li>
               </ol>
-              <!-- btn --> <a href="#" class="backToHome d-block"> Back to
-                Category</a> </div>
+              <!-- btn --> <a href="keycaps.html" class="backToHome d-block">
+                Back to Category</a> </div>
           </div>
         </div>
       </div>
