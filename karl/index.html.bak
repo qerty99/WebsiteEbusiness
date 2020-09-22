@@ -79,7 +79,7 @@
                       id="karl-navbar">
                       <ul class="navbar-nav animated" id="nav">
                         <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">About
+                        <li class="nav-item"><a class="nav-link" href="aboutus.html">About
                             Us</a></li>
                         <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle"
 
@@ -140,7 +140,7 @@
                       Free shipping on orders over $100</h6>
                     <h2 data-animation="fadeInUp" data-delay="500ms" data-duration="500ms">Custom
                       Keyboard Service</h2>
-                    <a href="#" class="btn karl-btn" data-animation="fadeInUp" data-delay="1s"
+                    <a href="custom.html" class="btn karl-btn" data-animation="fadeInUp" data-delay="1s"
 
                       data-duration="500ms">Shop Now</a> </div>
                 </div>
@@ -175,7 +175,7 @@
                       Free shipping on orders over $100</h6>
                     <h2 data-animation="bounceInDown" data-delay="500ms" data-duration="500ms">MX
                       Cherry Keycaps</h2>
-                    <a href="#" class="btn karl-btn" data-animation="fadeInRightBig"
+                    <a href="cherry_keycaps.html" class="btn karl-btn" data-animation="fadeInRightBig"
 
                       data-delay="1s" data-duration="500ms">Check Collection</a>
                   </div>
