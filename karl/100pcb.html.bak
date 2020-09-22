@@ -135,8 +135,8 @@
                 <li class="breadcrumb-item"><a href="pcb.html">PCB</a></li>
                 <li class="breadcrumb-item active">100% Aluminum Case</li>
               </ol>
-              <!-- btn --> <a href="pcb.html" class="backToHome d-block"> Back to
-                Category</a> </div>
+              <!-- btn --> <a href="pcb.html" class="backToHome d-block"> Back
+                to Category</a> </div>
           </div>
         </div>
       </div>
@@ -334,7 +334,7 @@
                 <!-- Single gallery Item -->
                 <div class="single_gallery_item">
                   <!-- Product Image -->
-                  <div class="product-img"> <img src="img/product-img/cases/80%/black-aluminum.jpg"
+                  <div class="product-img"> <img src="img/product-img/cases/100%/black-aluminum.jpg"
 
                       alt="">
                     <div class="product-quicview"> <a href="#" data-toggle="modal"
@@ -344,14 +344,14 @@
                   <!-- Product Description -->
                   <div class="product-description">
                     <h4 class="product-price">$129.99</h4>
-                    <p>80% Black Aluminum</p>
+                    <p>100% Black Aluminum Case</p>
                     <!-- Add to Cart --> <a href="#" class="add-to-cart-btn">ADD
                       TO CART</a> </div>
                 </div>
                 <!-- Single gallery Item -->
                 <div class="single_gallery_item">
                   <!-- Product Image -->
-                  <div class="product-img"> <img src="img/product-img/cases/80%/silver-alumium.jpg"
+                  <div class="product-img"> <img src="img/product-img/cases/100%/silver-aluminum.jpg"
 
                       alt="">
                     <div class="product-quicview"> <a href="#" data-toggle="modal"
@@ -361,14 +361,14 @@
                   <!-- Product Description -->
                   <div class="product-description">
                     <h4 class="product-price">$129.99</h4>
-                    <p>80% Silver Aluminum</p>
+                    <p>100% Silver Aluminum Case</p>
                     <!-- Add to Cart --> <a href="#" class="add-to-cart-btn">ADD
                       TO CART</a> </div>
                 </div>
                 <!-- Single gallery Item -->
                 <div class="single_gallery_item">
                   <!-- Product Image -->
-                  <div class="product-img"> <img src="img/product-img/cases/80%/blue-aluminum.jpg"
+                  <div class="product-img"> <img src="img/product-img/cases/100%/blue-aluminum.jpg"
 
                       alt="">
                     <div class="product-quicview"> <a href="#" data-toggle="modal"
@@ -378,7 +378,7 @@
                   <!-- Product Description -->
                   <div class="product-description">
                     <h4 class="product-price">$129.99</h4>
-                    <p>80% Blue Aluminum</p>
+                    <p>100% Blue Aluminum Case</p>
                     <!-- Add to Cart --> <a href="#" class="add-to-cart-btn">ADD
                       TO CART</a> </div>
                 </div>
