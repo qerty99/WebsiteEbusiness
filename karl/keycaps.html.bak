@@ -76,12 +76,31 @@
                   <!-- Cart & Menu Area -->
                   <div class="header-cart-menu d-flex align-items-center ml-auto">
                     <!-- Cart Area -->
-                    <div class="cart"> <a href="#" id="header-cart-btn" target="_blank">Your
-                        Shopping Cart $0.00 </a>
+                    <div class="cart"> <a href="#" id="header-cart-btn" target="_blank"><span
+
+                          class="cart_quantity">2</span> Your Bag $179.98</a>
                       <!-- Cart List Area Start -->
                       <ul class="cart-list">
+                        <li> <a href="#" class="image"><img src="img/product-img/keycaps/ch-blue.png"
+
+                              class="cart-thumb" alt=""></a>
+                          <div class="cart-item-desc">
+                            <h6><a href="#">Cherry keycaps (blue)</a></h6>
+                            <p>1x - <span class="price">$89.99</span></p>
+                          </div>
+                          <span class="dropdown-product-remove"><i class="icon-cross"></i></span>
+                        </li>
+                        <li> <a href="#" class="image"><img src="img/product-img/keycaps/sa-white.png"
+
+                              class="cart-thumb" alt=""></a>
+                          <div class="cart-item-desc">
+                            <h6><a href="#">SA keycaps (white)</a></h6>
+                            <p>1x - <span class="price">$89.99</span></p>
+                          </div>
+                          <span class="dropdown-product-remove"><i class="icon-cross"></i></span>
+                        </li>
                         <li class="total"> <span class="pull-right">Total:
-                            $0.00</span> <a href="cart.html" class="btn btn-sm btn-cart">Cart</a>
+                            $179.98.00</span> <a href="cart.html" class="btn btn-sm btn-cart">Cart</a>
                           <a href="checkout-1.html" class="btn btn-sm btn-checkout">Checkout</a>
                         </li>
                       </ul>
