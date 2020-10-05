@@ -2,7 +2,7 @@ simpleCart({
     checkout: {
         type: "SendForm" ,
         method: "POST",
-        url: "http://saturn.csit.rmit.edu.au/~e46281/inte2047/processFormData.php"
+        url: "http://saturn.csit.rmit.edu.au/inte2047/Distinguishedfarmers/checkout/processformdata.php"
     },
 });
 
