@@ -27,5 +27,41 @@
     }
 
    .custom-keyboard p {
-       text-align: center
+       text-align: center;
+   }
+
+   /*Checkout page*/
+   .shipping-options {
+       padding-top: 10px;
+   }
+   .payment {
+       padding-top:10px;
+       padding-bottom: 10px;
+   }
+
+   .form_card {
+       padding-top:10px
+   }
+
+   .payment .card_input {
+    height: 45px;
+    border: none;
+    background-color: #f4f2f8;
+    border-radius: 0;
+   }
+
+   .checkout {
+    width: 100%;
+    height: 60px;
+    background-color: #ff084e;
+    border-radius: 0;
+    
+   }
+
+   .checkout .simpleCart_checkout {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 60px;
+    padding-left: 40%;
    }
