@@ -1,4 +1,4 @@
-<?php include('login.php') ?>
+<?php include('Login.php'); ?>
 <php* lang="en">
   <head>
     <meta http-equiv="content-type" content="text/php*; charset=UTF-8">

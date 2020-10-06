@@ -1,4 +1,4 @@
-<?php include('login.php') ?>
+<?php include('Login.php'); ?>
 <html lang="en">
 
 <head>
