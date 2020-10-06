@@ -66,6 +66,18 @@
     padding-left: 40%;
    }
 
+   .checkout .simpleCart_empty {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 60px;
+    padding-left: 40%;
+   }
+   
+   .order_info
+   {
+       padding-bottom: 10px;
+   }
       /* Cart */
    /*
 Cart Table Rulesets

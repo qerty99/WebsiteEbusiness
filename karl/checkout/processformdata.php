@@ -45,8 +45,8 @@
                         <a href="#" id="header-cart-btn" target="_blank">Your Shopping Cart(<span class="simpleCart_quantity"></span>) <span class="simpleCart_total"></span></a>
                         <!-- Cart List Area Start -->
                         <ul class="cart-list">
-                            <li class="total"> <div class="pull-right"><span class="simpleCart_total"></span></div> <a href="cart.html" class="btn btn-sm btn-cart">Cart</a>
-                                <a href="checkout-1.html" class="btn btn-sm btn-checkout">Checkout</a>
+                            <li class="total"> <div class="pull-right"><span class="simpleCart_total"></span></div> <a href="cart.php" class="btn btn-sm btn-cart">Cart</a>
+                                <a href="checkout-1.php" class="btn btn-sm btn-checkout">Checkout</a>
                                 
                             </li>
                         </ul>
@@ -86,8 +86,8 @@
 
                       id="karl-navbar">
                       <ul class="navbar-nav animated" id="nav">
-                        <li class="nav-item active"><a class="nav-link" href="../index.html">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="../aboutus.html">About
+                        <li class="nav-item active"><a class="nav-link" href="../index.php">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../aboutus.php">About
                             Us</a></li>
                         <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle"
 
@@ -95,13 +95,13 @@
 
                             aria-haspopup="true" aria-expanded="false"><span class="karl-level">Sale</span>Store</a>
                           <div class="dropdown-menu" aria-labelledby="karlDropdown">
-                            <a class="dropdown-item" href="../cases-shop.html">Cases</a>
-                            <a class="dropdown-item" href="../keycaps.html">Keycaps</a>
-                            <a class="dropdown-item" href="../pcb.html">PCBs</a> </div>
+                            <a class="dropdown-item" href="../cases-shop.php">Cases</a>
+                            <a class="dropdown-item" href="../keycaps.php">Keycaps</a>
+                            <a class="dropdown-item" href="../pcb.php">PCBs</a> </div>
                         </li>
-                        <li class="nav-item"><a class="nav-link" href="../custom.html">Custom
+                        <li class="nav-item"><a class="nav-link" href="../custom.php">Custom
                             Builds</a></li>
-                        <li class="nav-item"><a class="nav-link" href="../contact_us.html">Contact
+                        <li class="nav-item"><a class="nav-link" href="../contact_us.php">Contact
                             Us</a></li>
                       </ul>
                     </div>
@@ -141,7 +141,7 @@
             <div class="col-12 col-md-6">
               <div class="checkout_details_area mt-50 clearfix">
                 <h4>Thank you for your Order</h4>
-
+                  <div class="order_info">
                   <?php
 
                       $email=htmlspecialchars($_POST["email_address"]);
@@ -162,26 +162,30 @@
                       echo $email . "<br />";
 
                       ?>
+                    </div>
+                
               </div>
+              
             </div>
-          
+
+            
 
             <div class='col-12 col-md-6 col-lg-5 ml-lg-auto'>
                 <div class='order-details-confirmation'>
 
                     <div class='cart-page-heading'>
-                        <h5>Your Order</h5>
-                        <p>The Details</p>
+                        <h5>Your Order Summary</h5>
                     </div>
 
                     <ul class='order-details-form mb-4'>
-                        <li><span>Product</span> <span>Total</span></li>
-                        <li><span>Cocktail Yellow dress</span> <span>$59.90</span></li>
                         <li><span>Subtotal</span> <span class='simpleCart_total'></span></li>
                         <li><span>Shipping</span> <span class='simpleCart_shipping'></span></li>
                         <li><span>Total</span> <span class='simpleCart_grandTotal'></span></li>
                     </ul>
                 </div>
+                <div class="checkout">
+                <a href="javascript:;" class="simpleCart_empty">Empty Cart</a>
+              </div>
             </div>
           </div>
       </div>

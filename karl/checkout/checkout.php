@@ -258,8 +258,7 @@
                             </div>
 
                             <ul class="order-details-form mb-4">
-                                <li><span>Product</span> <span>Total</span></li>
-                                <li><span>Cocktail Yellow dress</span> <span>$59.90</span></li>
+
                                 <li><span>Subtotal</span> <span class="simpleCart_total"></span></li>
                                 <li><span>Shipping</span> <span class="simpleCart_shipping"></span></li>
                                 <li><span>Total</span> <span class="simpleCart_grandTotal"></span></li>
