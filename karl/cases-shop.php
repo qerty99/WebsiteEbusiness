@@ -1,11 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php include('Login.php'); ?>
+<php* lang="en">
   <head>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="content-type" content="text/php*; charset=UTF-8">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="../js/simpleCart.js"></script>
+    <script src="../js/simplecartjs-config.js"></script>
     <!-- Title  -->
     <title>The Suited Switch | 100% Cases</title>
     <!-- Favicon  -->
@@ -17,114 +20,7 @@
     <link href="css/responsive.css" rel="stylesheet">
   </head>
   <body>
-    <div id="wrapper">
-      <!-- ****** Header Area Start ****** -->
-      <header class="header_area bg-img background-overlay-white" style="background-image: url(img/bg-img/bg-1.jpg);">
-        <!-- Top Header Area Start -->
-        <div class="top_header_area">
-          <div class="container h-100">
-            <div class="row h-100 align-items-center justify-content-end">
-              <div class="col-12 col-lg-7">
-                <div class="top_single_area d-flex align-items-center">
-                  <!-- Logo Area -->
-                  <div class="top_logo"> <a href="#"><img src="img/core-img/logo.png"
-
-                        alt=""></a> </div>
-                  <!-- Cart & Menu Area -->
-                  <div class="header-cart-menu d-flex align-items-center ml-auto">
-                    <!-- Cart Area -->
-                    <div class="cart"> <a href="#" id="header-cart-btn" target="_blank">Your
-                        Shopping Cart $0.00 </a>
-                      <!-- Cart List Area Start -->
-                      <ul class="cart-list">
-                        <li class="total"> <span class="pull-right">Total:
-                            $0.00</span> <a href="cart.html" class="btn btn-sm btn-cart">Cart</a>
-                          <a href="checkout-1.html" class="btn btn-sm btn-checkout">Checkout</a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Top Header Area End -->
-        <div class="main_header_area">
-          <div class="container h-100">
-            <div class="row h-100">
-              <div class="col-12 d-md-flex justify-content-between">
-                <!-- Header Social Area -->
-                <div class="header-social-area"> <a href="#"><span class="karl-level">Share</span>
-                    <i class="fa fa-pinterest" aria-hidden="true"></i></a> <a href="#"><i
-
-                      class="fa fa-facebook" aria-hidden="true"></i></a> <a href="#"><i
-
-                      class="fa fa-twitter" aria-hidden="true"></i></a> <a href="#"><i
-
-                      class="fa fa-linkedin" aria-hidden="true"></i></a> </div>
-                <!-- Menu Area -->
-                <div class="main-menu-area">
-                  <nav class="navbar navbar-expand-lg align-items-start"> <button
-
-                      class="navbar-toggler" type="button" data-toggle="collapse"
-
-                      data-target="#karl-navbar" aria-controls="karl-navbar" aria-expanded="false"
-
-                      aria-label="Toggle navigation"><span class="navbar-toggler-icon"><i
-
-                          class="ti-menu"></i></span></button>
-                    <div class="collapse navbar-collapse align-items-start collapse"
-
-                      id="karl-navbar">
-                      <ul class="navbar-nav animated" id="nav">
-                        <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="aboutus.html">About
-                            Us</a></li>
-                        <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle"
-
-                            href="#" id="karlDropdown" role="button" data-toggle="dropdown"
-
-                            aria-haspopup="true" aria-expanded="false"><span class="karl-level">Sale</span>Store</a>
-                          <div class="dropdown-menu" aria-labelledby="karlDropdown">
-                            <a class="dropdown-item" href="cases-shop.html">Cases</a>
-                            <a class="dropdown-item" href="keycaps.html">Keycaps</a>
-                            <a class="dropdown-item" href="pcb.html">PCBs</a> </div>
-                        </li>
-                        <li class="nav-item"><a class="nav-link" href="custom.html">Custom
-                            Builds</a></li>
-                        <li class="nav-item"><a class="nav-link" href="contact_us.html">Contact
-                            Us</a></li>
-                      </ul>
-                    </div>
-                  </nav>
-                </div>
-                <!-- Help Line -->
-                <div class="help-line"> <a href="tel:+346573556778"><i class="ti-headphone-alt"></i>
-                    +34 657 3556 778</a> </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </header>
-      <!-- ****** Header Area End ****** -->
-      <section class="top-discount-area d-md-flex align-items-center">
-        <!-- Single Discount Area -->
-        <div class="single-discount-area">
-          <h5>Free Shipping &amp; Returns</h5>
-          <h6><a href="#">BUY NOW</a></h6>
-        </div>
-        <!-- Single Discount Area -->
-        <div class="single-discount-area">
-          <h5>20% Discount off selected products</h5>
-          <h6>USE CODE: Colorlib</h6>
-        </div>
-        <!-- Single Discount Area -->
-        <div class="single-discount-area">
-          <h5>20% Discount for students</h5>
-          <h6>USE CODE: Colorlib</h6>
-        </div>
-      </section>
+  <?php include('menu.php') ?>
       <!-- ****** Quick View Modal Area Start ****** -->
       <div class="modal fade" id="quickview" tabindex="-1" role="dialog" aria-labelledby="quickview"
 
@@ -154,7 +50,7 @@
                         </div>
                         <h5 class="price">$89.99</h5>
                         <p>Available in White, Black, Red &amp; Blue</p>
-                        <a href="alumnium_case_page.html">View Full Product
+                        <a href="alumnium_case_page.php">View Full Product
                           Details</a> </div>
                       <!-- View Details Form -->
                       <form class="cart" method="post">
@@ -172,11 +68,11 @@
                         <button type="submit" name="addtocart" value="5" class="cart-submit">View
                           Details</button>
                         <!-- Wishlist -->
-                        <div class="modal_pro_wishlist"> <a href="wishlist.html"
+                        <div class="modal_pro_wishlist"> <a href="wishlist.php"
 
                             target="_blank"><i class="ti-heart"></i></a> </div>
                         <!-- Compare -->
-                        <div class="modal_pro_compare"> <a href="compare.html"
+                        <div class="modal_pro_compare"> <a href="compare.php"
 
                             target="_blank"><i class="ti-stats-up"></i></a> </div>
                       </form>
@@ -213,11 +109,11 @@
                     <div class="menu-list">
                       <ul id="menu-content2" class="menu-content collapse out">
                         <!-- Single Item -->
-                        <li data-toggle="collapse" data-target="#cases"> <a href="cases-shop.html">Cases</a>
+                        <li data-toggle="collapse" data-target="#cases"> <a href="cases-shop.php">Cases</a>
                           <ul class="sub-menu collapse show" id="cases">
-                            <li><a href="100cases.html">100% Cases</a></li>
-                            <li><a href="80cases.html">80% Cases</a></li>
-                            <li><a href="60cases.html">60% Cases</a></li>
+                            <li><a href="100cases.php">100% Cases</a></li>
+                            <li><a href="80cases.php">80% Cases</a></li>
+                            <li><a href="60cases.php">60% Cases</a></li>
                           </ul>
                         </li>
                       </ul>
@@ -262,7 +158,7 @@
                     <div class="product-description">
                       <h4 class="product-price">$89.90</h4>
                       <p>60% Aluminum Case</p>
-                      <!-- View Details --> <a href="alumnium_case_page.html" class="add-to-cart-btn">View
+                      <!-- View Details --> <a href="alumnium_case_page.php" class="add-to-cart-btn">View
                         Details</a> </div>
                   </div>
                   <!-- Single gallery Item -->
@@ -270,7 +166,7 @@
 
                     data-wow-delay="0.3s">
                     <!-- Product Image -->
-                    <div class="product-img"> <img src="img/product-img/cases/60%/clear-plastic.jpg"
+                    <div class="product-img"> <img src="img/product-img/cases/60/clear-plastic.jpg"
 
                         alt="">
                       <div class="product-quicview"> <a href="#" data-toggle="modal"
@@ -281,7 +177,7 @@
                     <div class="product-description">
                       <h4 class="product-price">$19.99</h4>
                       <p>60% Plastic Cases</p>
-                      <!-- View Details --> <a href="60plastic_case.html" class="add-to-cart-btn">View
+                      <!-- View Details --> <a href="60plastic_case.php" class="add-to-cart-btn">View
                         Details</a> </div>
                   </div>
                   <!-- Single gallery Item -->
@@ -289,7 +185,7 @@
 
                     data-wow-delay="0.4s">
                     <!-- Product Image -->
-                    <div class="product-img"> <img src="img/product-img/cases/80%/gold-aluminum.jpg"
+                    <div class="product-img"> <img src="img/product-img/cases/80/gold-aluminum.jpg"
 
                         alt="">
                       <div class="product-quicview"> <a href="#" data-toggle="modal"
@@ -300,7 +196,7 @@
                     <div class="product-description">
                       <h4 class="product-price">$129.99</h4>
                       <p>80% Aluminum Case</p>
-                      <!-- View Details --> <a href="80aluminum_case.html" class="add-to-cart-btn">View
+                      <!-- View Details --> <a href="80aluminum_case.php" class="add-to-cart-btn">View
                         Details</a> </div>
                   </div>
                   <!-- Single gallery Item -->
@@ -308,7 +204,7 @@
 
                     data-wow-delay="0.5s">
                     <!-- Product Image -->
-                    <div class="product-img"> <img src="img/product-img/cases/60%/rosewood.jpg"
+                    <div class="product-img"> <img src="img/product-img/cases/60/rosewood.jpg"
 
                         alt="">
                       <div class="product-quicview"> <a href="#" data-toggle="modal"
@@ -319,7 +215,7 @@
                     <div class="product-description">
                       <h4 class="product-price">$49.99</h4>
                       <p>60% Wooden Case</p>
-                      <!-- View Details --> <a href="60wooden.html" class="add-to-cart-btn">View
+                      <!-- View Details --> <a href="60wooden.php" class="add-to-cart-btn">View
                         Details</a> </div>
                   </div>
                   <!-- Single gallery Item -->
@@ -327,7 +223,7 @@
 
                     data-wow-delay="0.6s">
                     <!-- Product Image -->
-                    <div class="product-img"> <img src="img/product-img/cases/100%/silver-aluminum.jpg"
+                    <div class="product-img"> <img src="img/product-img/cases/100/silver-aluminum.jpg"
 
                         alt="">
                       <div class="product-quicview"> <a href="#" data-toggle="modal"
@@ -338,7 +234,7 @@
                     <div class="product-description">
                       <h4 class="product-price">$139.99</h4>
                       <p>100% Aluminum Case</p>
-                      <!-- View Details --> <a href="100aluminum_case.html" class="add-to-cart-btn">View
+                      <!-- View Details --> <a href="100aluminum_case.php" class="add-to-cart-btn">View
                         Details</a> </div>
                   </div>
                   <!-- Single gallery Item -->
@@ -346,7 +242,7 @@
 
                     data-wow-delay="0.6s">
                     <!-- Product Image -->
-                    <div class="product-img"> <img src="img/product-img/cases/60%/white-acryllic.jpg"
+                    <div class="product-img"> <img src="img/product-img/cases/60/white-acryllic.jpg"
 
                         alt="">
                       <div class="product-quicview"> <a href="#" data-toggle="modal"
@@ -357,7 +253,7 @@
                     <div class="product-description">
                       <h4 class="product-price">$39.00</h4>
                       <p>60% Frosted Acrylic Case</p>
-                      <!-- View Details --> <a href="60acrylic_case.html" class="add-to-cart-btn">View
+                      <!-- View Details --> <a href="60acrylic_case.php" class="add-to-cart-btn">View
                         Details</a> </div>
                   </div>
                 </div>
@@ -397,7 +293,7 @@
             <div class="col-12 col-sm-6 col-md-3 col-lg-2">
               <div class="single_footer_area">
                 <ul class="footer_widget_menu">
-                  <li><a href="#">About</a></li>
+                  <li><a href="map.php">Site Map</a></li>
                   <li><a href="#">Blog</a></li>
                   <li><a href="#">Faq</a></li>
                   <li><a href="#">Returns</a></li>
@@ -464,4 +360,4 @@
     <!-- Active js -->
     <script src="js/active.js"></script>
   </body>
-</html>
+</php*>

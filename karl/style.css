@@ -27,5 +27,110 @@
     }
 
    .custom-keyboard p {
-       text-align: center
+       text-align: center;
    }
+
+   /*Checkout page*/
+   .shipping-options {
+       padding-top: 10px;
+   }
+   .payment {
+       padding-top:10px;
+       padding-bottom: 10px;
+   }
+
+   .form_card {
+       padding-top:10px
+   }
+
+   .payment .card_input {
+    height: 45px;
+    border: none;
+    background-color: #f4f2f8;
+    border-radius: 0;
+   }
+
+   .checkout {
+    width: 100%;
+    height: 60px;
+    background-color: #ff084e;
+    border-radius: 0;
+    
+   }
+
+   .checkout .simpleCart_checkout {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 60px;
+    padding-left: 40%;
+   }
+
+      /* Cart */
+   /*
+Cart Table Rulesets
+===
+*/
+.simpleCart_items table {
+/*
+Need to set border-collapse for tr border (refer to ".simpleCart_items tr" ruleset) to appear.
+*/
+border-collapse: collapse;
+margin-bottom: 20px;
+}
+
+.simpleCart_items th {
+    font-size: 125%; /* Use bigger font for table heading. */
+}
+
+.simpleCart_items tr {
+    border-bottom: 1px solid lightgray;
+}
+
+.simpleCart_items td {
+    padding: 10px;
+}
+
+/*
+"Totals Table" Rulesets
+===
+*/
+table.costs {
+    border: 1px solid lightgray;
+    width: auto;
+    margin-right: 0px;
+    margin-left: auto;
+    padding: 10px;
+    font-size: 110%;
+}
+
+td.costs{
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: right;
+}
+
+/*
+Links Rulesets
+===
+*/
+.button, a.simpleCart_increment, a.simpleCart_decrement, a.simpleCart_remove, a.item_add {
+    background-color:white;
+    border:1px solid lightgray;
+    border-radius:5px;
+    color:black;
+    margin-right:10px;
+    padding:10px 10px 10px 10px;
+    text-decoration-line: none;
+}
+
+.item_price {
+    font-size: 120%;
+    font-weight: bold;
+}
+
+a.simpleCart_empty {
+    color: lightslategray;
+    font-size: 80%;
+    padding:10px 10px 10px 10px;
+}

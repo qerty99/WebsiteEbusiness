@@ -1,4 +1,4 @@
-<?php include('login.php'); ?>
+<?php include('Login.php'); ?>
 <html lang="en">
 
 <head>
@@ -7,7 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="../js/simpleCart.js"></script>
+    <script src="../js/simplecartjs-config.js"></script>
     <!-- Title  -->
     <title>The Suited Switch | 60% Acrylic Case</title>
 
@@ -25,7 +27,7 @@
 
 <body>
 
-    <?php include('menu.php') ?>
+    <?php include('home.php') ?>
         <!-- <<<<<<<<<<<<<<<<<<<< Breadcumb Area Start <<<<<<<<<<<<<<<<<<<< -->
         <div class="breadcumb_area">
             <div class="container">

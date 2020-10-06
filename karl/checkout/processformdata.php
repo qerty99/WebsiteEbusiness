@@ -1,16 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
+<?php include('login.php') ?>
+<html>
+    <head>
     <meta charset="UTF-8">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-
+    <!-- Link to simpleCartJS-->
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="../js/simpleCart.js"></script>
+    <script src="../js/simplecartjs-config.js"></script>
+    
     <!-- Title  -->
-    <title>The Suited Switch | Checkout</title>
-
+        <title>The Suited Switch | Confirmation</title>
+    
     <!-- Favicon  -->
     <link rel="icon" href="../img/core-img/favicon.ico">
 
@@ -20,11 +23,9 @@
 
     <!-- Responsive CSS -->
     <link href="../css/responsive.css" rel="stylesheet">
-
 </head>
-
 <body>
-    <div id="wrapper">
+<div id="wrapper">
       <!-- ****** Header Area Start ****** -->
       <header class="header_area">
         <!-- Top Header Area Start -->
@@ -40,15 +41,15 @@
                   <!-- Cart & Menu Area -->
                   <div class="header-cart-menu d-flex align-items-center ml-auto">
                     <!-- Cart Area -->
-                    <div class="cart"> <a href="#" id="header-cart-btn" target="_blank">Your
-                        Shopping Cart $0.00 </a>
-                      <!-- Cart List Area Start -->
-                      <ul class="cart-list">
-                        <li class="total"> <span class="pull-right">Total:
-                            $0.00</span> <a href="../cart.html" class="btn btn-sm btn-cart">Cart</a>
-                          <a href="../checkout-1.html" class="btn btn-sm btn-checkout">Checkout</a>
-                        </li>
-                      </ul>
+                    <div class="cart">
+                        <a href="#" id="header-cart-btn" target="_blank">Your Shopping Cart(<span class="simpleCart_quantity"></span>) <span class="simpleCart_total"></span></a>
+                        <!-- Cart List Area Start -->
+                        <ul class="cart-list">
+                            <li class="total"> <div class="pull-right"><span class="simpleCart_total"></span></div> <a href="cart.html" class="btn btn-sm btn-cart">Cart</a>
+                                <a href="checkout-1.html" class="btn btn-sm btn-checkout">Checkout</a>
+                                
+                            </li>
+                        </ul>
                     </div>
                   </div>
                 </div>
@@ -134,130 +135,58 @@
         </div>
       </section>
       <!-- ****** Top Discount Area End ****** -->
+      <div class="checkout_area section_padding_100">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-6">
+              <div class="checkout_details_area mt-50 clearfix">
+                <h4>Thank you for your Order</h4>
 
-        <!-- ****** Checkout Area Start ****** -->
-        <div class="checkout_area section_padding_100">
-            <div class="container">
-                <div class="row">
+                  <?php
 
-                    <div class="col-12 col-md-6">
-                        <div class="checkout_details_area mt-50 clearfix">
+                      $email=htmlspecialchars($_POST["email_address"]);
+                      $first_name = htmlspecialchars($_POST["first_name"]);
+                      $last_name = htmlspecialchars($_POST["last_name"]);
+                      $street1 = htmlspecialchars($_POST["street1"]);
+                      $city = htmlspecialchars($_POST["city"]);
+                      $postcode = htmlspecialchars($_POST["postcode"]);
+                      $state = htmlspecialchars($_POST["state"]);
+                      $country = htmlspecialchars($_POST["country"]);
 
-                            <div class="cart-page-heading">
-                                <h5>Checkout</h5>
-                            </div>
+                      echo "Order Number: " . uniqid() . "<br />";
+                      echo "Order Date: " . date("l d/m/Y") . "<br />";
+                      echo "Customer: " . $first_name . " " . $last_name . "<br /><br />"; 
+                      echo "<h5>Shipping Address</h4>";
+                      echo $street1 . "<br />" . $city . ", " . $postcode . "<br />";
+                      echo $state . ", " . $country . "<br />";
+                      echo $email . "<br />";
 
-                            <form action="#" method="post">
-                                <h4>Your Details</h4>
+                      ?>
+              </div>
+            </div>
+          
 
-                                <div class="row">
-                                    <div class="col-12 mb-4">
-                                        <label for="email_address">Email Address <span>*</span></label>
-                                        <input type="email" class="form-control" id="email_address" value="">
-                                        <p>We'll send your order confirmation here</p>
-                                    </div>
-                                    <div class="col-md-6 mb-3">
-                                        <label for="first_name">First Name <span>*</span></label>
-                                        <input type="text" class="form-control" id="first_name" value="" required>
-                                    </div>
-                                    <div class="col-md-6 mb-3">
-                                        <label for="last_name">Last Name <span>*</span></label>
-                                        <input type="text" class="form-control" id="last_name" value="" required>
-                                    </div>
+            <div class='col-12 col-md-6 col-lg-5 ml-lg-auto'>
+                <div class='order-details-confirmation'>
 
-                                    <div class="col-12 mb-3">
-                                        <label for="street_address">Address <span>*</span></label>
-                                        <input type="text" class="form-control mb-3" id="street_address" value="">
-                                        <input type="text" class="form-control" id="street_address2" value="">
-                                    </div>
-                                    <div class="col-md-6 mb-3">
-                                        <label for="postcode">Postcode <span>*</span></label>
-                                        <input type="text" class="form-control" id="postcode" value="">
-                                    </div>
-                                    <div class="col-md-6 mb-3">
-                                        <label for="city">Town/City <span>*</span></label>
-                                        <input type="text" class="form-control" id="city" value="">
-                                    </div>
-                                    <div class="col-md-6 mb-3">
-                                        <label for="state">State <span>*</span></label>
-                                        <input type="text" class="form-control" id="state" value="">
-                                    </div>
-                                    <div class="col-md-6 mb-3">
-                                        <label for="country">Country <span>*</span></label>
-                                        <select class="custom-select d-block w-100" id="country">
-                                        <option value="usa">United States</option>
-                                        <option value="uk">United Kingdom</option>
-                                        <option value="ger">Germany</option>
-                                        <option value="fra">France</option>
-                                        <option value="ind">India</option>
-                                        <option value="aus">Australia</option>
-                                        <option value="bra">Brazil</option>
-                                        <option value="cana">Canada</option>
-                                    </select>
-                                    </div>
-                                    <div class="col-12">
-                                    
-                                    <div class="shipping-options">
-                                        <h4>Shipping Options</h4>
-                                        <div>
-                                            <input type="radio" id="std_shipping" name="shipping_type" value="standard"/>
-                                            <label for="std_shipping">Standard Shipping</label>
-                                        </div>
-
-                                        <div>
-                                            <input type="radio" id="express_shipping" name="shipping_type" value="express"/>
-                                            <label for="express_shipping">Express Shipping</label>
-                                        </div>
-                                    </div>
-
-                                    <div class="payment">
-                                        <h4>Payment</h4>
-                                        <div>
-                                            <input type="radio" id="paypal_payment" name="payment_type" value="paypal"/>
-                                            <label for="paypal_payment">PayPal</label>
-                                        </div>
-
-                                        <div>
-                                            <input type="radio" id="card_payment" name="payment_type" value="card"/>
-                                            <label for="card_payment">Credit or Debit Card</label>
-                                        </div>
-                                    </div>
-                                    
-                                    <!--
-                                        <div class="custom-control d-block mb-2">
-                                            <input type="radio" class="custom-control-input" id="customCheck1">
-                                            <label class="custom-control-label" for="customCheck1">Standard Shipping</label>
-                                        </div>
-                                        <div class="custom-control d-block mb-2">
-                                            <input type="radio" class="custom-control-input" id="customCheck2">
-                                            <label class="custom-control-label" for="customCheck2">Express Shipping</label>
-                                        </div>
-                                    <h4>Payment</h4>
-                                    <div class="custom-control custom-checkbox d-block mb-2">
-                                        <input type="radio" class="custom-control-input" id="customCheck3">
-                                        <label class="custom-control-label" for="customCheck1">Paypal</label>
-                                    </div>
-                                    <div class="custom-control custom-checkbox d-block mb-2">
-                                        <input type="radio" class="custom-control-input" id="customCheck4">
-                                        <label class="custom-control-label" for="customCheck1">Credit or Debit</label>
-                                    </div>
-                                    </div>
-                                    -->
-                                </div>
-                            </form>
-                        </div>
+                    <div class='cart-page-heading'>
+                        <h5>Your Order</h5>
+                        <p>The Details</p>
                     </div>
 
-                  
-                            <a href="#" class="btn karl-checkout-btn">Place Order</a>
-                        </div>
-                    </div>
-
+                    <ul class='order-details-form mb-4'>
+                        <li><span>Product</span> <span>Total</span></li>
+                        <li><span>Cocktail Yellow dress</span> <span>$59.90</span></li>
+                        <li><span>Subtotal</span> <span class='simpleCart_total'></span></li>
+                        <li><span>Shipping</span> <span class='simpleCart_shipping'></span></li>
+                        <li><span>Total</span> <span class='simpleCart_grandTotal'></span></li>
+                    </ul>
                 </div>
             </div>
-        </div>
-        <!-- ****** Checkout Area End ****** -->
-
+          </div>
+      </div>
+    </div>
+</body>
         <!-- ****** Footer Area Start ****** -->
         <footer class="footer_area">
             <div class="container">
@@ -279,7 +208,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
                     <div class="col-12 col-sm-6 col-md-3 col-lg-2">
                         <div class="single_footer_area">
                             <ul class="footer_widget_menu">
-                                <li><a href="#">About</a></li>
+                                <li><a href="map.php">Site Map</a></li>
                                 <li><a href="#">Blog</a></li>
                                 <li><a href="#">Faq</a></li>
                                 <li><a href="#">Returns</a></li>
@@ -344,7 +273,4 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <script src="js/plugins.js"></script>
     <!-- Active js -->
     <script src="js/active.js"></script>
-
-</body>
-
 </html>

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<?php include('Login.php'); ?>
 <html lang="en">
 
 <head>
@@ -7,9 +7,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="../js/simpleCart.js"></script>
+    <script src="../js/simplecartjs-config.js"></script>
     <!-- Title  -->
-    <title>The Suited Switch | 80% Aluminum Case</title>
+    <title>The Suited Switch | 100% Aluminum Case</title>
 
     <!-- Favicon  -->
     <link rel="icon" href="img/core-img/favicon.ico">
@@ -24,118 +26,7 @@
 </head>
 
 <body>
-    <div id="wrapper">
-
-        <!-- ****** Header Area Start ****** -->
-        <header class="header_area bg-img background-overlay-white" style="background-image: url(img/bg-img/bg-1.jpg);">
-            <!-- Top Header Area Start -->
-            <div class="top_header_area">
-                <div class="container h-100">
-                    <div class="row h-100 align-items-center justify-content-end">
-
-                        <div class="col-12 col-lg-7">
-                            <div class="top_single_area d-flex align-items-center">
-                                <!-- Logo Area -->
-                                <div class="top_logo">
-                                    <a href="#"><img src="img/core-img/logo.png" alt=""></a>
-                                </div>
-                               <!-- Cart & Menu Area -->
-                                <div class="header-cart-menu d-flex align-items-center ml-auto">
-                                    <!-- Cart Area -->
-                                    <div class="cart"> <a href="#" id="header-cart-btn" target="_blank">Your
-                                        Shopping Cart $0.00 </a>
-                                    <!-- Cart List Area Start -->
-                                    <ul class="cart-list">
-                                        <li class="total"> <span class="pull-right">Total: $0.00</span>
-                                        <a href="cart.html" class="btn btn-sm btn-cart">Cart</a>
-                                        <a href="checkout-1.html" class="btn btn-sm btn-checkout">Checkout</a>
-                                        </li>
-                                    </ul>
-                                    </div>
-                                </div>
-                                </div>
-                            </div>
-                            </div>
-                        </div>
-                        </div>
-
-            <!-- Top Header Area End -->
-            <div class="main_header_area">
-                <div class="container h-100">
-                    <div class="row h-100">
-                        <div class="col-12 d-md-flex justify-content-between">
-                            <!-- Header Social Area -->
-                            <div class="header-social-area">
-                                <a href="#"><span class="karl-level">Share</span> <i class="fa fa-pinterest" aria-hidden="true"></i></a>
-                                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                            </div>
-                            <!-- Menu Area -->
-                            <div class="main-menu-area">
-                                <nav class="navbar navbar-expand-lg align-items-start"> <button
-              
-                                    class="navbar-toggler" type="button" data-toggle="collapse"
-              
-                                    data-target="#karl-navbar" aria-controls="karl-navbar" aria-expanded="false"
-              
-                                    aria-label="Toggle navigation"><span class="navbar-toggler-icon"><i
-              
-                                        class="ti-menu"></i></span></button>
-                                  <div class="collapse navbar-collapse align-items-start collapse"
-              
-                                    id="karl-navbar">
-                                    <ul class="navbar-nav animated" id="nav">
-                                      <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
-                                      <li class="nav-item"><a class="nav-link" href="aboutus.html">About
-                                          Us</a></li>
-                                      <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle"
-              
-                                          href="#" id="karlDropdown" role="button" data-toggle="dropdown"
-              
-                                          aria-haspopup="true" aria-expanded="false"><span class="karl-level">Sale</span>Store</a>
-                                        <div class="dropdown-menu" aria-labelledby="karlDropdown">
-                                          <a class="dropdown-item" href="cases-shop.html">Cases</a>
-                                          <a class="dropdown-item" href="keycaps.html">Keycaps</a>
-                                          <a class="dropdown-item" href="pcb.html">PCBs</a>
-                                        </div>
-                                      </li>
-                                      <li class="nav-item"><a class="nav-link" href="custom">Custom
-                                          Builds</a></li>
-                                      <li class="nav-item"><a class="nav-link" href="contact_us.html">Contact
-                                          Us</a></li>                        
-                                    </ul>
-                                  </div>
-                                </nav>
-                              </div>
-                            <!-- Help Line -->
-                            <div class="help-line">
-                                <a href="tel:+346573556778"><i class="ti-headphone-alt"></i> +34 657 3556 778</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </header>
-        <!-- ****** Header Area End ****** -->
-
-        <section class="top-discount-area d-md-flex align-items-center">
-            <!-- Single Discount Area -->
-            <div class="single-discount-area">
-                <h5>Free Shipping &amp; Returns</h5>
-                <h6><a href="#">BUY NOW</a></h6>
-            </div>
-            <!-- Single Discount Area -->
-            <div class="single-discount-area">
-                <h5>20% Discount off selected products</h5>
-                <h6>USE CODE: Colorlib</h6>
-            </div>
-            <!-- Single Discount Area -->
-            <div class="single-discount-area">
-                <h5>20% Discount for students</h5>
-                <h6>USE CODE: Colorlib</h6>
-            </div>
-        </section>
+<?php include('menu.php') ?>
 
         <!-- <<<<<<<<<<<<<<<<<<<< Breadcumb Area Start <<<<<<<<<<<<<<<<<<<< -->
         <div class="breadcumb_area">
@@ -144,11 +35,11 @@
                     <div class="col-12">
                         <ol class="breadcrumb d-flex align-items-center">
                             <li class="breadcrumb-item"><a href="#">Home</a></li>
-                            <li class="breadcrumb-item"><a href="80cases.html">80% Cases</a></li>
-                            <li class="breadcrumb-item active">80% Aluminum Case</li>
+                            <li class="breadcrumb-item"><a href="100cases.php">100% Cases</a></li>
+                            <li class="breadcrumb-item active">100% Aluminum Case</li>
                         </ol>
                         <!-- btn -->
-                        <a href="cases-shop.html" class="backToHome d-block"><i class="fa fa-angle-double-left"></i> Back to Cases</a>
+                        <a href="cases-shop.php" class="backToHome d-block"><i class="fa fa-angle-double-left"></i> Back to Cases</a>
                     </div>
                 </div>
             </div>
@@ -157,6 +48,8 @@
 
         <!-- <<<<<<<<<<<<<<<<<<<< Single Product Details Area Start >>>>>>>>>>>>>>>>>>>>>>>>> -->
         <section class="single_product_details_area section_padding_0_100">
+            <div class="product">
+            <div class="simpleCart_shelfItem">
             <div class="container">
                 <div class="row">
 
@@ -165,35 +58,49 @@
                             <div id="product_details_slider" class="carousel slide" data-ride="carousel">
 
                                 <ol class="carousel-indicators">
-                                    <li class="active" data-target="#product_details_slider" data-slide-to="0" style="background-image: url(img/product-img/cases/80%/gold-aluminum.jpg);">
+                                    <li class="active" data-target="#product_details_slider" data-slide-to="0" style="background-image: url(img/product-img/cases/100/silver-aluminum.jpg);">
                                     </li>
-                                    <li data-target="#product_details_slider" data-slide-to="1" style="background-image: url(img/product-img/cases/80%/black-aluminum.jpg);">
+                                    <li data-target="#product_details_slider" data-slide-to="1" style="background-image: url(img/product-img/cases/100/black-aluminum.jpg);">
                                     </li>
-                                    <li data-target="#product_details_slider" data-slide-to="2" style="background-image: url(img/product-img/cases/80%/silver-alumium.jpg);">
+                                    <li data-target="#product_details_slider" data-slide-to="2" style="background-image: url(img/product-img/cases/100/white-aluminum.jpg);">
                                     </li>
-                                    <li data-target="#product_details_slider" data-slide-to="3" style="background-image: url(img/product-img/cases/80%/blue-aluminum.jpg);">
+                                    <li data-target="#product_details_slider" data-slide-to="3" style="background-image: url(img/product-img/cases/100/red-aluminum.jpg);">
+                                    </li>
+                                    <li data-target="#product_details_slider" data-slide-to="4" style="background-image: url(img/product-img/cases/100/blue-aluminum.jpg);">
+                                    </li>
+                                    <li data-target="#product_details_slider" data-slide-to="5" style="background-image: url(img/product-img/cases/100/lime-green.jpg);">
                                     </li>
                                 </ol>
 
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
-                                        <a class="gallery_img" href="img/product-img/cases/80%/gold-aluminum.jpg">
-                                        <img class="d-block w-100" src="img/product-img/cases/80%/gold-aluminum.jpg" alt="First slide">
+                                        <a class="gallery_img" href="img/product-img/cases/100/silver-aluminum.jpg">
+                                        <img class="d-block w-100" src="img/product-img/cases/100/silver-aluminum.jpg" alt="First slide">
                                     </a>
                                     </div>
                                     <div class="carousel-item">
-                                        <a class="gallery_img" href="img/product-img/cases/80%/black-aluminum.jpg">
-                                        <img class="d-block w-100" src="img/product-img/cases/80%/black-aluminum.jpg" alt="Second slide">
+                                        <a class="gallery_img" href="img/product-img/cases/100/black-aluminum.jpg">
+                                        <img class="d-block w-100" src="img/product-img/cases/100/black-aluminum.jpg" alt="Second slide">
                                     </a>
                                     </div>
                                     <div class="carousel-item">
-                                        <a class="gallery_img" href="img/product-img/cases/80%/silver-alumium.jpg">
-                                        <img class="d-block w-100" src="img/product-img/cases/80%/silver-alumium.jpg" alt="Third slide">
+                                        <a class="gallery_img" href="img/product-img/cases/100/white-aluminum.jpg">
+                                        <img class="d-block w-100" src="img/product-img/cases/100/white-aluminum.jpg" alt="Third slide">
                                     </a>
                                     </div>
                                     <div class="carousel-item">
-                                        <a class="gallery_img" href="img/product-img/cases/80%/blue-aluminum.jpg">
-                                        <img class="d-block w-100" src="img/product-img/cases/80%/blue-aluminum.jpg" alt="Fourth slide">
+                                        <a class="gallery_img" href="img/product-img/cases/100/red-aluminum.jpg">
+                                        <img class="d-block w-100" src="img/product-img/cases/100/red-aluminum.jpg" alt="Fourth slide">
+                                    </a>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <a class="gallery_img" href="img/product-img/cases/100/blue-aluminum.jpg">
+                                        <img class="d-block w-100" src="img/product-img/cases/100/blue-aluminum.jpg" alt="Fifth slide">
+                                    </a>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <a class="gallery_img" href="img/product-img/cases/100/lime-green.jpg">
+                                        <img class="d-block w-100" src="img/product-img/cases/100/lime-green.jpg" alt="Fifth slide">
                                     </a>
                                     </div>
                                 </div>
@@ -204,9 +111,9 @@
                     <div class="col-12 col-md-6">
                         <div class="single_product_desc">
 
-                            <h4 class="title"><a href="#">80% Aluminum Case</a></h4>
+                            <h4 class="title"><a href="#">100% Aluminum Case</a></h4>
 
-                            <h4 class="price">$129.99</h4>
+                            <h4 class="price">$139.99</h4>
 
                             <p class="available">Available: <span class="text-muted">In Stock</span></p>
 
@@ -220,14 +127,14 @@
 
                             <div class="widget size mb-50">
                                 <h6 class="widget-title">Colour</h6>
-                                <div class="widget-desc">
-                                    <ul>
-                                        <li><a href="#">Gold</a></li>
-                                        <li><a href="#", class='medium-desc'>Black</a></li>
-                                        <li><a href="#", class='medium-desc'>Silver</a></li>
-                                        <li><a href="#">Blue</a></li>
-                                    </ul>
-                                </div>
+                                <select class ="item_size">
+                                    <option value="Silver">Silver</option>
+                                    <option value="Black">Black</option>
+                                    <option value="White">White</option>
+                                    <option value="Red">Red</option>
+                                    <option value="Blue">Blue</option>
+                                    <option value="Green">Green</option>
+                                </select>
                             </div>
 
                             <!-- Add to Cart Form -->
@@ -250,10 +157,11 @@
 
                                     <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
                                         <div class="card-body">
-                                            <p>CNC Anodized Aluminum 80% Keyboard Case</p>
-                                            <p>80% Layout Compatible</p>
-                                            <p>Compatible with 80% PCBs</p>
-                                            <p>Available in Gold, Black, Silver, Blue</p>
+                                            <p>Solid CNC Aluminum 100% Keyboard Case</p>
+                                            <p>100% Layout Compatible</p>
+                                            <p>Compatible with most 100% PCBs</p>
+                                            <p>Available in Silver, Black, White, Red, Blue & Lime Green</p>
+                                            <p>*Keys not included, only case </p>
                                         </div>
                                     </div>
                                 </div>
@@ -263,6 +171,8 @@
                     </div>
                 </div>
             </div>
+    </div>
+    </div>
         </section>
         <!-- <<<<<<<<<<<<<<<<<<<< Single Product Details Area End >>>>>>>>>>>>>>>>>>>>>>>>> -->
 
@@ -308,11 +218,11 @@
                                             <button type="submit" name="addtocart" value="5" class="cart-submit">Add to cart</button>
                                             <!-- Wishlist -->
                                             <div class="modal_pro_wishlist">
-                                                <a href="wishlist.html" target="_blank"><i class="ti-heart"></i></a>
+                                                <a href="wishlist.php" target="_blank"><i class="ti-heart"></i></a>
                                             </div>
                                             <!-- Compare -->
                                             <div class="modal_pro_compare">
-                                                <a href="compare.html" target="_blank"><i class="ti-stats-up"></i></a>
+                                                <a href="compare.php" target="_blank"><i class="ti-stats-up"></i></a>
                                             </div>
                                         </form>
 
@@ -348,8 +258,8 @@
                     <div class="col-12">
                         <div class="you_make_like_slider owl-carousel">
                             <!--Will need to change this once more products are added-->
-                            <!-- Single gallery Item -->
-                            <div class="single_gallery_item">
+                             <!-- Single gallery Item -->
+                             <div class="single_gallery_item">
                                 <!-- Product Image -->
                                 <div class="product-img">
                                     <img src="img/product-img/cases/white-alumium.jpg" alt="">
@@ -362,7 +272,7 @@
                                     <h4 class="product-price">$89.90</h4>
                                     <p>60% Alumium Case</p>
                                     <!-- Add to Cart -->
-                                    <a href="alumnium_case_page.html" class="add-to-cart-btn">View Details</a>
+                                    <a href="alumnium_case_page.php" class="add-to-cart-btn">View Details</a>
                                 </div>
                             </div>
 
@@ -370,17 +280,17 @@
                             <div class="single_gallery_item">
                                 <!-- Product Image -->
                                 <div class="product-img">
-                                    <img src="img/product-img/cases/100%/silver-aluminum.jpg" alt="">
+                                    <img src="img/product-img/cases/100/silver-aluminum.jpg" alt="">
                                     <div class="product-quicview">
                                         <a href="#" data-toggle="modal" data-target="#quickview"><i class="ti-plus"></i></a>
                                     </div>
                                 </div>
                                 <!-- Product Description -->
                                 <div class="product-description">
-                                    <h4 class="product-price">$139.99</h4>
-                                    <p>100% Aluminum Case</p>
+                                    <h4 class="product-price">$129.99</h4>
+                                    <p>80% Aluminum Case</p>
                                     <!-- Add to Cart -->
-                                    <a href="100aluminum_case.html" class="add-to-cart-btn">View Details</a>
+                                    <a href="80aluminum_case.php" class="add-to-cart-btn">View Details</a>
                                 </div>
                             </div>
 
@@ -398,7 +308,7 @@
                                     <h4 class="product-price">$39.00</h4>
                                     <p>60% Frosted Acrylic Case</p>
                                     <!-- Add to Cart -->
-                                    <a href="60acrylic_case.html" class="add-to-cart-btn">View Details</a>
+                                    <a href="60acrylic_case.php" class="add-to-cart-btn">View Details</a>
                                 </div>
                             </div>
 
@@ -416,7 +326,7 @@
                                     <h4 class="product-price">$19.99</h4>
                                     <p>60% Plastic Cases</p>
                                     <!-- Add to Cart -->
-                                    <a href="60plastic_case.html" class="add-to-cart-btn">View Details</a>
+                                    <a href="60plastic_case.php" class="add-to-cart-btn">View Details</a>
                                 </div>
                             </div>
                         </div>
@@ -446,7 +356,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
                     <div class="col-12 col-sm-6 col-md-3 col-lg-2">
                         <div class="single_footer_area">
                             <ul class="footer_widget_menu">
-                                <li><a href="#">About</a></li>
+                                <li><a href="map.php">Site Map</a></li>
                                 <li><a href="#">Blog</a></li>
                                 <li><a href="#">Faq</a></li>
                                 <li><a href="#">Returns</a></li>
