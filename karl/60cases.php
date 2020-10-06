@@ -47,8 +47,8 @@
                     <!-- Cart List Area Start -->
                     <ul class="cart-list">
                       <li class="total"> <span class="pull-right">Total: $0.00</span>
-                        <a href="cart.html" class="btn btn-sm btn-cart">Cart</a>
-                        <a href="checkout-1.html" class="btn btn-sm btn-checkout">Checkout</a>
+                        <a href="cart.php" class="btn btn-sm btn-cart">Cart</a>
+                        <a href="checkout-1.php" class="btn btn-sm btn-checkout">Checkout</a>
                       </li>
                     </ul>
                   </div>
@@ -131,7 +131,7 @@
                                             </div>
                                             <h5 class="price">$89.99</h5>
                                             <p>Available in White, Black, Red & Blue</p>
-                                            <a href="alumnium_case_page.html">View Full Product Details</a>
+                                            <a href="alumnium_case_page.php">View Full Product Details</a>
                                         </div>
                                         <!-- View Details Form -->
                                         <form class="cart" method="post">
@@ -187,11 +187,11 @@
                                         <ul id="menu-content2" class="menu-content collapse out">
                                             <!-- Single Item -->
                                             <li data-toggle="collapse" data-target="#cases">
-                                                <a href="cases-shop.html">Cases</a>
+                                                <a href="cases-shop.php">Cases</a>
                                                 <ul class="sub-menu collapse show" id="cases">
-                                                    <li><a href="100cases.html">100% Cases</a></li>
-                                                    <li><a href="80cases.html">80% Cases</a></li>
-                                                    <li><a href="60cases.html">60% Cases</a></li>
+                                                    <li><a href="100cases.php">100% Cases</a></li>
+                                                    <li><a href="80cases.php">80% Cases</a></li>
+                                                    <li><a href="60cases.php">60% Cases</a></li>
                                                 </ul>
                                             </li>
                                         </ul>
@@ -233,7 +233,7 @@
                             <h4 class="product-price">$89.90</h4>
                             <p>60% Aluminum Case</p>
                             <!-- View Details -->
-                            <a href="alumnium_case_page.html" class="add-to-cart-btn">View Details</a>
+                            <a href="alumnium_case_page.php" class="add-to-cart-btn">View Details</a>
                         </div>
                     </div>
 
@@ -251,7 +251,7 @@
                             <h4 class="product-price">$19.99</h4>
                             <p>60% Plastic Cases</p>
                             <!-- View Details -->
-                            <a href="60plastic_case.html" class="add-to-cart-btn">View Details</a>
+                            <a href="60plastic_case.php" class="add-to-cart-btn">View Details</a>
                         </div>
                     </div>
 
@@ -269,7 +269,7 @@
                             <h4 class="product-price">$49.99</h4>
                             <p>60% Wooden Case</p>
                             <!-- View Details -->
-                            <a href="60wooden.html" class="add-to-cart-btn">View Details</a>
+                            <a href="60wooden.php" class="add-to-cart-btn">View Details</a>
                         </div>
                     </div>
 
@@ -287,7 +287,7 @@
                             <h4 class="product-price">$39.00</h4>
                             <p>60% Frosted Acrylic Case</p>
                             <!-- View Details -->
-                            <a href="60acrylic_case.html" class="add-to-cart-btn">View Details</a>
+                            <a href="60acrylic_case.php" class="add-to-cart-btn">View Details</a>
                         </div>
                     </div>
                     </div>
