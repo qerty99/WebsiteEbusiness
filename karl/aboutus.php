@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="../js/simpleCart.js"></script>
+    <script src="../js/simplecartjs-config.js"></script>
     <!-- Title  -->
     <title>The Suited Switch | About Us</title>
     <!-- Favicon  -->
@@ -17,8 +20,6 @@
     <link href="css/responsive.css" rel="stylesheet">
   </head>
   <body>
-    <div id="wrapper">
-      <!-- ****** Header Area Start ****** -->
       <?php include('menu.php'); ?>
       <!-- ****** Header Area End ****** -->
       <section class="custom-keyboard">

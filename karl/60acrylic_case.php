@@ -1,4 +1,4 @@
-<?php include('login.php') ?>
+<?php include('login.php'); ?>
 <html lang="en">
 
 <head>
@@ -25,7 +25,7 @@
 
 <body>
 
-    <?php include('login.php') ?>
+    <?php include('menu.php') ?>
         <!-- <<<<<<<<<<<<<<<<<<<< Breadcumb Area Start <<<<<<<<<<<<<<<<<<<< -->
         <div class="breadcumb_area">
             <div class="container">

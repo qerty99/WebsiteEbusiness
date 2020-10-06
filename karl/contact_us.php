@@ -20,6 +20,7 @@
     <link href="css/responsive.css" rel="stylesheet">
   </head>
   <body>
+  <?php include('menu.php'); ?>
     <div class="catagories-side-menu">
       <!-- Close Icon -->
       <div id="sideMenuClose"> <i class="ti-close"></i> </div>
