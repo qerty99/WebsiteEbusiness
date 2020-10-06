@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/simpleCart.js"></script>
+    <script src="js/simplecartjs-config.js"></script>
     <!-- Title  -->
     <title>Suited Switch | SA keycaps</title>
     <!-- Favicon  -->
@@ -76,16 +79,16 @@
                   <!-- Cart & Menu Area -->
                   <div class="header-cart-menu d-flex align-items-center ml-auto">
                     <!-- Cart Area -->
-                    <div class="cart"> <a href="#" id="header-cart-btn" target="_blank">Your
-                        Shopping Cart $0.00 </a>
+                    <div class="cart">
+                      <a href="#" id="header-cart-btn" target="_blank">Your Shopping Cart(<span class="simpleCart_quantity"></span>) <span class="simpleCart_total"></span></a>
                       <!-- Cart List Area Start -->
                       <ul class="cart-list">
-                        <li class="total"> <span class="pull-right">Total:
-                            $0.00</span> <a href="cart.html" class="btn btn-sm btn-cart">Cart</a>
-                          <a href="checkout-1.html" class="btn btn-sm btn-checkout">Checkout</a>
-                        </li>
+                          <li class="total"> <div class="pull-right"><span class="simpleCart_total"></span></div> <a href="cart.html" class="btn btn-sm btn-cart">Cart</a>
+                              <a href="checkout-1.html" class="btn btn-sm btn-checkout">Checkout</a>
+                              
+                          </li>
                       </ul>
-                    </div>
+                  </div>
                   </div>
                 </div>
               </div>
@@ -186,6 +189,7 @@
         <!-- <<<<<<<<<<<<<<<<<<<< Breadcumb Area End <<<<<<<<<<<<<<<<<<<< -->
         <!-- <<<<<<<<<<<<<<<<<<<< Single Product Details Area Start >>>>>>>>>>>>>>>>>>>>>>>>> -->
         <section class="single_product_details_area section_padding_0_100">
+          <div class="simpleCart_shelfItem">
           <div class="container">
             <div class="row">
               <div class="col-12 col-md-6">
@@ -216,20 +220,20 @@
                     <div class="carousel-inner">
                       <div class="carousel-item active"> <a class="gallery_img"
 
-                          href="img/product-img/keycaps/sa-blue.png"> <img class="d-block w-100"
+                          href="img/product-img/keycaps/sa-blue.png"> <img class="item_image product_image"
 
                             src="img/product-img/keycaps/sa-blue.png" alt="First slide">
                         </a> </div>
                       <div class="carousel-item"> <a class="gallery_img" href="img/product-img/keycaps/sa-white.png">
-                          <img class="d-block w-100" src="img/product-img/keycaps/sa-white.png"
+                          <img class="item_image product_image" src="img/product-img/keycaps/sa-white.png"
 
                             alt="Second slide"> </a> </div>
                       <div class="carousel-item"> <a class="gallery_img" href="img/product-img/keycaps/sa-black.png">
-                          <img class="d-block w-100" src="img/product-img/keycaps/sa-black.png"
+                          <img class="item_image product_image" src="img/product-img/keycaps/sa-black.png"
 
                             alt="Third slide"> </a> </div>
                       <div class="carousel-item"> <a class="gallery_img" href="img/product-img/keycaps/sa-pink.png">
-                          <img class="d-block w-100" src="img/product-img/keycaps/sa-pink.png"
+                          <img class="item_image product_image" src="img/product-img/keycaps/sa-pink.png"
 
                             alt="Fourth slide"> </a> </div>
                     </div>
@@ -238,8 +242,8 @@
               </div>
               <div class="col-12 col-md-6">
                 <div class="single_product_desc">
-                  <h4 class="title"><a href="#">SA Keycaps</a></h4>
-                  <h4 class="price">$ 89.99</h4>
+                  <h4 class="item_name"><a href="#">SA Keycaps</a></h4>
+                  <span class="item_price">$ 89.99</span><br />
                   <p class="available">Available: <span class="text-muted">In
                       Stock</span></p>
                   <div class="single_product_ratings mb-15"> <i class="fa fa-star"
@@ -251,38 +255,29 @@
                   </div>
                   <div class="widget size mb-50">
                     <h6 class="widget-title">Colour</h6>
-                    <div class="widget-desc">
-                      <ul>
-                        <li><a href="#" ,="" class="medium-desc">Blue</a></li>
-                        <li><a href="#" ,="" class="medium-desc">White</a></li>
-                        <li><a href="#" ,="" class="medium-desc">Black</a></li>
-                        <li><a href="#" ,="" class="medium-desc">Pink</a></li>
-                      </ul>
-                    </div>
+                    <select class="item_size">
+                      <option value="Blue">Blue</option>
+                      <option value="White">White</option>
+                      <option value="Black">Black</option>
+                      <option value="Pink">Pink</option>
+                    </select>
+                  </div>
+                  
                     <p></p>
                     <div class="widget size mb-50">
                       <h6 class="widget-title">Size</h6>
-                      <div class="widget-desc">
-                        <ul>
-                          <li><a href="#" ,="" class="medium-desc">60%</a></li>
-                          <li><a href="#" ,="" class="medium-desc">80%</a></li>
-                          <li><a href="#" ,="" class="medium-desc">100%</a></li>
-                        </ul>
-                      </div>
+                      <select class="item_size">
+                          <option value="60%">60%</option>
+                          <option value="80%">80%</option>
+                          <option value="100%">100%</option>
+                      </select>    
                     </div>
+
                     <!-- Add to Cart Form -->
-                    <form class="cart clearfix mb-50 d-flex" method="post">
-                      <div class="quantity"> <span class="qty-minus" onclick="var effect = document.getElementById('qty'); var qty = effect.value; if( !isNaN( qty ) &amp;&amp; qty > 1 ) effect.value--;return false;"><i
+                    <input type="text" value="1" class="item_quantity" /><br />
+                    <p></p>
+                    <p><a class="item_add" href="javascript:;">Add to Cart</a></p>
 
-                            class="fa fa-minus" aria-hidden="true"></i></span> <input
-
-                          class="qty-text" id="qty" step="1" min="1" max="12" name="quantity"
-
-                          value="1" type="number"> <span class="qty-plus" onclick="var effect = document.getElementById('qty'); var qty = effect.value; if( !isNaN( qty )) effect.value++;return false;"><i
-
-                            class="fa fa-plus" aria-hidden="true"></i></span> </div>
-                      <button type="submit" name="addtocart" value="5" class="btn cart-submit d-block">Add
-                        to cart</button> </form>
                     <div id="accordion" role="tablist">
                       <div class="card">
                         <div class="card-header" role="tab" id="headingOne">
@@ -307,6 +302,7 @@
               </div>
             </div>
           </div>
+        </div>
         </section>
         <!-- <<<<<<<<<<<<<<<<<<<< Single Product Details Area End >>>>>>>>>>>>>>>>>>>>>>>>> -->
         <!-- ****** Quick View Modal Area Start ****** -->
