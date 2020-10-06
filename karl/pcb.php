@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<?php include('login.php'); ?>
 <html lang="en">
   <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
@@ -75,7 +76,7 @@
 
                     id="karl-navbar">
                     <ul class="navbar-nav animated" id="nav">
-                      <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+                      <li class="nav-item active"><a class="nav-link" href="index.php">Home</a></li>
                       <li class="nav-item"><a class="nav-link" href="aboutus.html">About
                           Us</a></li>
                       <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle"
@@ -90,7 +91,7 @@
                       </li>
                       <li class="nav-item"><a class="nav-link" href="custom.html">Custom
                           Builds</a></li>
-                      <li class="nav-item"><a class="nav-link" href="contact.html">Contact
+                      <li class="nav-item"><a class="nav-link" href="contact_us.html">Contact
                           Us</a></li>
                     </ul>
                   </div>

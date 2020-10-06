@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<?php include('Login.php'); ?>
 <html lang="en">
   <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
@@ -64,41 +64,7 @@
 
                       class="fa fa-linkedin" aria-hidden="true"></i></a> </div>
                 <!-- Menu Area -->
-                <div class="main-menu-area">
-                  <nav class="navbar navbar-expand-lg align-items-start"> <button
-
-                      class="navbar-toggler" type="button" data-toggle="collapse"
-
-                      data-target="#karl-navbar" aria-controls="karl-navbar" aria-expanded="false"
-
-                      aria-label="Toggle navigation"><span class="navbar-toggler-icon"><i
-
-                          class="ti-menu"></i></span></button>
-                    <div class="collapse navbar-collapse align-items-start collapse"
-
-                      id="karl-navbar">
-                      <ul class="navbar-nav animated" id="nav">
-                        <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">About
-                            Us</a></li>
-                        <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle"
-
-                            href="#" id="karlDropdown" role="button" data-toggle="dropdown"
-
-                            aria-haspopup="true" aria-expanded="false"><span class="karl-level">Sale</span>Store</a>
-                          <div class="dropdown-menu" aria-labelledby="karlDropdown">
-                            <a class="dropdown-item" href="cases-shop.html">Cases</a>
-                            <a class="dropdown-item" href="keycaps.html">Keycaps</a>
-                            <a class="dropdown-item" href="pcb.html">PCBs</a> </div>
-                        </li>
-                        <li class="nav-item"><a class="nav-link" href="custom.html">Custom
-                            Builds</a></li>
-                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact
-                            Us</a></li>
-                      </ul>
-                    </div>
-                  </nav>
-                </div>
+                <?php include('menu.php'); ?>
                 <!-- Help Line -->
                 <div class="help-line"> <a href="tel:+346573556778"><i class="ti-headphone-alt"></i>
                     +34 657 3556 778</a> </div>
@@ -133,7 +99,7 @@
               <ol class="breadcrumb d-flex align-items-center">
                 <li class="breadcrumb-item"><a href="index.html">Home</a></li>
                 <li class="breadcrumb-item"><a href="pcb.html">PCB</a></li>
-                <li class="breadcrumb-item active">100% Aluminum Case</li>
+                <li class="breadcrumb-item active">80% PCB</li>
               </ol>
               <!-- btn --> <a href="pcb.html" class="backToHome d-block"> Back
                 to Category</a> </div>
@@ -151,46 +117,42 @@
                   <ol class="carousel-indicators">
                     <li class="active" data-target="#product_details_slider" data-slide-to="0"
 
-                      style="background-image: url(img/pcb-img/100HS.jpg);"> <br>
+                      style="background-image: url(img/pcb-img/80HS.jpg);"> <br>
                     </li>
                     <li data-target="#product_details_slider" data-slide-to="1"
 
-                      style="background-image: url(img/pcb-img/100HS.jpg);"> <br>
+                      style="background-image: url(img/pcb-img/80HS.jpg);"> <br>
                     </li>
                     <li data-target="#product_details_slider" data-slide-to="2"
 
-                      style="background-image: url(img/pcb-img/100HS.jpg);"> <br>
+                      style="background-image: url(img/pcb-img/80HS.jpg);"> <br>
                     </li>
                     <li data-target="#product_details_slider" data-slide-to="3"
 
-                      style="background-image: url(img/pcb-img/100HS.jpg);"> <br>
+                      style="background-image: url(img/pcb-img/80HS.jpg);"> <br>
                     </li>
                   </ol>
                   <div class="carousel-inner">
-                    <div class="carousel-item active"> <a class="gallery_img" href="img/pcb-img/100HS.jpg">
-                        <img class="d-block w-100" src="img/pcb-img/100HS.jpg"
-
-                          alt="First slide"> </a> </div>
-                    <div class="carousel-item"> <a class="gallery_img" href="img/pcb-img/100HS.jpg">
-                        <img class="d-block w-100" src="img/pcb-img/100HS.jpg"
-
-                          alt="Second slide"> </a> </div>
-                    <div class="carousel-item"> <a class="gallery_img" href="img/pcb-img/100HS.jpg">
-                        <img class="d-block w-100" src="img/pcb-img/100HS.jpg"
-
-                          alt="Third slide"> </a> </div>
-                    <div class="carousel-item"> <a class="gallery_img" href="img/pcb-img/100HS.jpg">
-                        <img class="d-block w-100" src="img/pcb-img/100HS.jpg"
-
-                          alt="Fourth slide"> </a> </div>
+                    <div class="carousel-item active"> <a class="gallery_img" href="img/pcb-img/80HS.jpg">
+                        <img class="d-block w-100" src="img/pcb-img/80HS.jpg" alt="First slide">
+                      </a> </div>
+                    <div class="carousel-item"> <a class="gallery_img" href="img/pcb-img/80HS.jpg">
+                        <img class="d-block w-100" src="img/pcb-img/80HS.jpg" alt="Second slide">
+                      </a> </div>
+                    <div class="carousel-item"> <a class="gallery_img" href="img/pcb-img/80HS.jpg">
+                        <img class="d-block w-100" src="img/pcb-img/80HS.jpg" alt="Third slide">
+                      </a> </div>
+                    <div class="carousel-item"> <a class="gallery_img" href="img/pcb-img/80HS.jpg">
+                        <img class="d-block w-100" src="img/pcb-img/80HS.jpg" alt="Fourth slide">
+                      </a> </div>
                   </div>
                 </div>
               </div>
             </div>
             <div class="col-12 col-md-6">
               <div class="single_product_desc">
-                <h4 class="title"><a href="#">100% PCB Hot-Swap</a></h4>
-                <h4 class="price">$85.99</h4>
+                <h4 class="title"><a href="#">80% PCB Hot-Swap</a></h4>
+                <h4 class="price">$75.99</h4>
                 <p class="available">Available: <span class="text-muted">In
                     Stock</span></p>
                 <div class="single_product_ratings mb-15"> <i class="fa fa-star"
@@ -225,9 +187,9 @@
 
                       aria-labelledby="headingOne" data-parent="#accordion">
                       <div class="card-body">
-                        <p>100% Hot Swapable PCB</p>
+                        <p>80% Mechanical Hot Swapable PCB</p>
                         <p>USB-C Connection</p>
-                        <p>100% Layout Compatible</p>
+                        <p>80% Layout Compatible</p>
                         <p>Compatible with most 60% Cases</p>
                         <p>QMK Firmware</p>
                       </div>
@@ -334,7 +296,7 @@
                 <!-- Single gallery Item -->
                 <div class="single_gallery_item">
                   <!-- Product Image -->
-                  <div class="product-img"> <img src="img/product-img/cases/100%/black-aluminum.jpg"
+                  <div class="product-img"> <img src="img/product-img/cases/80/black-aluminum.jpg"
 
                       alt="">
                     <div class="product-quicview"> <a href="#" data-toggle="modal"
@@ -344,14 +306,14 @@
                   <!-- Product Description -->
                   <div class="product-description">
                     <h4 class="product-price">$129.99</h4>
-                    <p>100% Black Aluminum Case</p>
+                    <p>80% Black Aluminum</p>
                     <!-- Add to Cart --> <a href="#" class="add-to-cart-btn">ADD
                       TO CART</a> </div>
                 </div>
                 <!-- Single gallery Item -->
                 <div class="single_gallery_item">
                   <!-- Product Image -->
-                  <div class="product-img"> <img src="img/product-img/cases/100%/silver-aluminum.jpg"
+                  <div class="product-img"> <img src="img/product-img/cases/80/silver-alumium.jpg"
 
                       alt="">
                     <div class="product-quicview"> <a href="#" data-toggle="modal"
@@ -361,14 +323,14 @@
                   <!-- Product Description -->
                   <div class="product-description">
                     <h4 class="product-price">$129.99</h4>
-                    <p>100% Silver Aluminum Case</p>
+                    <p>80% Silver Aluminum</p>
                     <!-- Add to Cart --> <a href="#" class="add-to-cart-btn">ADD
                       TO CART</a> </div>
                 </div>
                 <!-- Single gallery Item -->
                 <div class="single_gallery_item">
                   <!-- Product Image -->
-                  <div class="product-img"> <img src="img/product-img/cases/100%/blue-aluminum.jpg"
+                  <div class="product-img"> <img src="img/product-img/cases/80/blue-aluminum.jpg"
 
                       alt="">
                     <div class="product-quicview"> <a href="#" data-toggle="modal"
@@ -378,7 +340,7 @@
                   <!-- Product Description -->
                   <div class="product-description">
                     <h4 class="product-price">$129.99</h4>
-                    <p>100% Blue Aluminum Case</p>
+                    <p>80% Blue Aluminum</p>
                     <!-- Add to Cart --> <a href="#" class="add-to-cart-btn">ADD
                       TO CART</a> </div>
                 </div>
@@ -411,7 +373,7 @@
             <div class="col-12 col-sm-6 col-md-3 col-lg-2">
               <div class="single_footer_area">
                 <ul class="footer_widget_menu">
-                  <li><a href="#">About</a></li>
+                <li><a href="map.php">Site Map</a></li>
                   <li><a href="#">Blog</a></li>
                   <li><a href="#">Faq</a></li>
                   <li><a href="#">Returns</a></li>

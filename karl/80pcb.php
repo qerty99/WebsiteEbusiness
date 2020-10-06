@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<?php include('Login.php'); ?>
 <html lang="en">
   <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <!-- Title  -->
-    <title>Suited Switch | Cherry keycaps</title>
+    <title>The Suited Switch | Product Details</title>
     <!-- Favicon  -->
     <link rel="icon" href="img/core-img/favicon.ico">
     <!-- Core Style CSS -->
@@ -17,52 +17,9 @@
     <link href="css/responsive.css" rel="stylesheet">
   </head>
   <body>
-    <div class="catagories-side-menu">
-      <!-- Close Icon -->
-      <div id="sideMenuClose"> <i class="ti-close"></i> </div>
-      <!--  Side Nav  -->
-      <div class="nav-side-menu">
-        <div class="menu-list">
-          <h6>Categories</h6>
-          <ul id="menu-content" class="menu-content collapse out">
-            <!-- Single Item -->
-            <li data-toggle="collapse" data-target="#women" class="collapsed active">
-              <a href="#">Cases <span class="arrow"></span></a>
-              <ul class="sub-menu collapse" id="women">
-                <li><a href="#">100% cases</a></li>
-                <li><a href="#">80% cases</a></li>
-                <li><a href="#">60% cases</a></li>
-              </ul>
-            </li>
-            <!-- Single Item -->
-            <li data-toggle="collapse" data-target="#man" class="collapsed"> <a
-
-                href="#">PCB <span class="arrow"></span></a>
-              <ul class="sub-menu collapse" id="man">
-                <li><a href="#">100% PCB</a></li>
-                <li><a href="#">80% PCB</a></li>
-                <li><a href="#">60% PCB</a></li>
-              </ul>
-            </li>
-            <!-- Single Item -->
-            <li data-toggle="collapse" data-target="#kids" class="collapsed"> <a
-
-                href="#">Keycaps <span class="arrow"></span></a>
-              <ul class="sub-menu collapse" id="kids">
-                <li><a href="#">SA keycaps</a></li>
-                <li><a href="#">Cherry keycaps</a></li>
-              </ul>
-            </li>
-            <!-- Single Item -->
-            <!-- Single Item -->
-            <!-- Single Item -->
-          </ul>
-        </div>
-      </div>
-    </div>
     <div id="wrapper">
       <!-- ****** Header Area Start ****** -->
-      <header class="header_area bg-img background-overlay-white" style="background-image: url();">
+      <header class="header_area bg-img background-overlay-white" style="background-image: url(img/bg-img/bg-3.jpg);">
         <!-- Top Header Area Start -->
         <div class="top_header_area">
           <div class="container h-100">
@@ -107,41 +64,7 @@
 
                       class="fa fa-linkedin" aria-hidden="true"></i></a> </div>
                 <!-- Menu Area -->
-                <div class="main-menu-area">
-                  <nav class="navbar navbar-expand-lg align-items-start"> <button
-
-                      class="navbar-toggler" type="button" data-toggle="collapse"
-
-                      data-target="#karl-navbar" aria-controls="karl-navbar" aria-expanded="false"
-
-                      aria-label="Toggle navigation"><span class="navbar-toggler-icon"><i
-
-                          class="ti-menu"></i></span></button>
-                    <div class="collapse navbar-collapse align-items-start collapse"
-
-                      id="karl-navbar">
-                      <ul class="navbar-nav animated" id="nav">
-                        <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="aboutus.html">About
-                            Us</a></li>
-                        <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle"
-
-                            href="#" id="karlDropdown" role="button" data-toggle="dropdown"
-
-                            aria-haspopup="true" aria-expanded="false"><span class="karl-level">Sale</span>Store</a>
-                          <div class="dropdown-menu" aria-labelledby="karlDropdown">
-                            <a class="dropdown-item" href="cases-shop.html">Cases</a>
-                            <a class="dropdown-item" href="keycaps.html">Keycaps</a>
-                            <a class="dropdown-item" href="pcb.html">PCBs</a> </div>
-                        </li>
-                        <li class="nav-item"><a class="nav-link" href="custom.html">Custom
-                            Builds</a></li>
-                        <li class="nav-item"><a class="nav-link" href="contact_us.html">Contact
-                            Us</a></li>
-                      </ul>
-                    </div>
-                  </nav>
-                </div>
+                <?php include('menu.php'); ?>
                 <!-- Help Line -->
                 <div class="help-line"> <a href="tel:+346573556778"><i class="ti-headphone-alt"></i>
                     +34 657 3556 778</a> </div>
@@ -175,11 +98,11 @@
             <div class="col-12">
               <ol class="breadcrumb d-flex align-items-center">
                 <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                <li class="breadcrumb-item"><a href="keycaps.html">Keycaps</a></li>
-                <li class="breadcrumb-item active">MX Cherry Keycaps</li>
+                <li class="breadcrumb-item"><a href="pcb.html">PCB</a></li>
+                <li class="breadcrumb-item active">80% PCB</li>
               </ol>
-              <!-- btn --> <a href="keycaps.html" class="backToHome d-block">
-                Back to Category</a> </div>
+              <!-- btn --> <a href="pcb.html" class="backToHome d-block"> Back
+                to Category</a> </div>
           </div>
         </div>
       </div>
@@ -194,50 +117,42 @@
                   <ol class="carousel-indicators">
                     <li class="active" data-target="#product_details_slider" data-slide-to="0"
 
-                      style="background-image: url(img/product-img/keycaps/ch-blue.png);">
-                      <br>
+                      style="background-image: url(img/pcb-img/80pcb.png);"> <br>
                     </li>
                     <li data-target="#product_details_slider" data-slide-to="1"
 
-                      style="background-image: url(img/product-img/keycaps/ch-white.png);">
-                      <br>
+                      style="background-image: url(img/pcb-img/80pcb.png);"> <br>
                     </li>
                     <li data-target="#product_details_slider" data-slide-to="2"
 
-                      style="background-image: url(img/product-img/keycaps/ch-black.png);">
-                      <br>
+                      style="background-image: url(img/pcb-img/80pcb.png);"> <br>
                     </li>
                     <li data-target="#product_details_slider" data-slide-to="3"
 
-                      style="background-image: url(img/product-img/keycaps/ch-green.png);">
-                      <br>
+                      style="background-image: url(img/pcb-img/80pcb.png);"> <br>
                     </li>
                   </ol>
                   <div class="carousel-inner">
-                    <div class="carousel-item active"> <a class="gallery_img" href="img/product-img/keycaps/ch-blue.png">
-                        <img class="d-block w-100" src="img/product-img/keycaps/ch-blue.png"
-
-                          alt="First slide"> </a> </div>
-                    <div class="carousel-item"> <a class="gallery_img" href="img/product-img/keycaps/ch-white.png">
-                        <img class="d-block w-100" src="img/product-img/keycaps/ch-white.png"
-
-                          alt="Second slide"> </a> </div>
-                    <div class="carousel-item"> <a class="gallery_img" href="img/product-img/keycaps/ch-black.png">
-                        <img class="d-block w-100" src="img/product-img/keycaps/ch-black.png"
-
-                          alt="Third slide"> </a> </div>
-                    <div class="carousel-item"> <a class="gallery_img" href="img/product-img/keycaps/ch-green.png">
-                        <img class="d-block w-100" src="img/product-img/keycaps/ch-green.png"
-
-                          alt="Fourth slide"> </a> </div>
+                    <div class="carousel-item active"> <a class="gallery_img" href="img/pcb-img/80pcb.png">
+                        <img class="d-block w-100" src="img/pcb-img/80pcb.png" alt="First slide">
+                      </a> </div>
+                    <div class="carousel-item"> <a class="gallery_img" href="img/pcb-img/80pcb.png">
+                        <img class="d-block w-100" src="img/pcb-img/80pcb.png" alt="Second slide">
+                      </a> </div>
+                    <div class="carousel-item"> <a class="gallery_img" href="img/pcb-img/80pcb.png">
+                        <img class="d-block w-100" src="img/pcb-img/80pcb.png" alt="Third slide">
+                      </a> </div>
+                    <div class="carousel-item"> <a class="gallery_img" href="img/pcb-img/80pcb.png">
+                        <img class="d-block w-100" src="img/pcb-img/80pcb.png" alt="Fourth slide">
+                      </a> </div>
                   </div>
                 </div>
               </div>
             </div>
             <div class="col-12 col-md-6">
               <div class="single_product_desc">
-                <h4 class="title"><a href="#">MX Cherry Keycaps</a></h4>
-                <h4 class="price">$ 89.99</h4>
+                <h4 class="title"><a href="#">80% PCB</a></h4>
+                <h4 class="price">$69.99</h4>
                 <p class="available">Available: <span class="text-muted">In
                     Stock</span></p>
                 <div class="single_product_ratings mb-15"> <i class="fa fa-star"
@@ -247,56 +162,36 @@
 
                     aria-hidden="true"></i> <i class="fa fa-star-o" aria-hidden="true"></i>
                 </div>
-                <div class="widget size mb-50">
-                  <h6 class="widget-title">Colour</h6>
-                  <div class="widget-desc">
-                    <ul>
-                      <li><a href="#" ,="" class="medium-desc">Blue</a></li>
-                      <li><a href="#" ,="" class="medium-desc">White</a></li>
-                      <li><a href="#" ,="" class="medium-desc">Black</a></li>
-                      <li><a href="#" ,="" class="medium-desc">Green</a></li>
-                    </ul>
-                  </div>
-                  <p></p>
-                  <div class="widget size mb-50">
-                    <h6 class="widget-title">Size</h6>
-                    <div class="widget-desc">
-                      <ul>
-                        <li><a href="#" ,="" class="medium-desc">60%</a></li>
-                        <li><a href="#" ,="" class="medium-desc">80%</a></li>
-                        <li><a href="#" ,="" class="medium-desc">100%</a></li>
-                      </ul>
+                <!-- Add to Cart Form -->
+                <form class="cart clearfix mb-50 d-flex" method="post">
+                  <div class="quantity"> <span class="qty-minus" onclick="var effect = document.getElementById('qty'); var qty = effect.value; if( !isNaN( qty ) &amp;&amp; qty > 1 ) effect.value--;return false;"><i
+
+                        class="fa fa-minus" aria-hidden="true"></i></span> <input
+
+                      class="qty-text" id="qty" step="1" min="1" max="12" name="quantity"
+
+                      value="1" type="number"> <span class="qty-plus" onclick="var effect = document.getElementById('qty'); var qty = effect.value; if( !isNaN( qty )) effect.value++;return false;"><i
+
+                        class="fa fa-plus" aria-hidden="true"></i></span> </div>
+                  <button type="submit" name="addtocart" value="5" class="btn cart-submit d-block">Add
+                    to cart</button> </form>
+                <div id="accordion" role="tablist">
+                  <div class="card">
+                    <div class="card-header" role="tab" id="headingOne">
+                      <h6 class="mb-0"> <a data-toggle="collapse" href="#collapseOne"
+
+                          aria-expanded="true" aria-controls="collapseOne">Information</a>
+                      </h6>
                     </div>
-                  </div>
-                  <!-- Add to Cart Form -->
-                  <form class="cart clearfix mb-50 d-flex" method="post">
-                    <div class="quantity"> <span class="qty-minus" onclick="var effect = document.getElementById('qty'); var qty = effect.value; if( !isNaN( qty ) &amp;&amp; qty > 1 ) effect.value--;return false;"><i
+                    <div id="collapseOne" class="collapse show" role="tabpanel"
 
-                          class="fa fa-minus" aria-hidden="true"></i></span> <input
-
-                        class="qty-text" id="qty" step="1" min="1" max="12" name="quantity"
-
-                        value="1" type="number"> <span class="qty-plus" onclick="var effect = document.getElementById('qty'); var qty = effect.value; if( !isNaN( qty )) effect.value++;return false;"><i
-
-                          class="fa fa-plus" aria-hidden="true"></i></span> </div>
-                    <button type="submit" name="addtocart" value="5" class="btn cart-submit d-block">Add
-                      to cart</button> </form>
-                  <div id="accordion" role="tablist">
-                    <div class="card">
-                      <div class="card-header" role="tab" id="headingOne">
-                        <h6 class="mb-0"> <a data-toggle="collapse" href="#collapseOne"
-
-                            aria-expanded="true" aria-controls="collapseOne">Information</a>
-                        </h6>
-                      </div>
-                      <div id="collapseOne" class="collapse show" role="tabpanel"
-
-                        aria-labelledby="headingOne" data-parent="#accordion">
-                        <div class="card-body">
-                          <p>60% 80% 100% Keycaps</p>
-                          <p>Suit for different cases</p>
-                          <p>Available in Blue, White, Black &amp; Green</p>
-                        </div>
+                      aria-labelledby="headingOne" data-parent="#accordion">
+                      <div class="card-body">
+                        <p>80% Mechanical Keyboard PCB</p>
+                        <p>USB-C Connection</p>
+                        <p>80% Layout Compatible</p>
+                        <p>Compatible with most 60% Cases</p>
+                        <p>QMK Firmware</p>
                       </div>
                     </div>
                   </div>
@@ -401,7 +296,7 @@
                 <!-- Single gallery Item -->
                 <div class="single_gallery_item">
                   <!-- Product Image -->
-                  <div class="product-img"> <img src="img/product-img/keycaps/sa-black.png"
+                  <div class="product-img"> <img src="img/product-img/cases/8/black-aluminum.jpg"
 
                       alt="">
                     <div class="product-quicview"> <a href="#" data-toggle="modal"
@@ -410,15 +305,15 @@
                   </div>
                   <!-- Product Description -->
                   <div class="product-description">
-                    <h4 class="product-price">$89.90</h4>
-                    <p>SA Black Keycaps</p>
+                    <h4 class="product-price">$129.99</h4>
+                    <p>80% Black Aluminum</p>
                     <!-- Add to Cart --> <a href="#" class="add-to-cart-btn">ADD
                       TO CART</a> </div>
                 </div>
                 <!-- Single gallery Item -->
                 <div class="single_gallery_item">
                   <!-- Product Image -->
-                  <div class="product-img"> <img src="img/product-img/cases/black-alumium.jpg"
+                  <div class="product-img"> <img src="img/product-img/cases/80/silver-alumium.jpg"
 
                       alt="">
                     <div class="product-quicview"> <a href="#" data-toggle="modal"
@@ -427,15 +322,15 @@
                   </div>
                   <!-- Product Description -->
                   <div class="product-description">
-                    <h4 class="product-price">$89.90</h4>
-                    <p>Black alumium case</p>
+                    <h4 class="product-price">$129.99</h4>
+                    <p>80% Silver Aluminum</p>
                     <!-- Add to Cart --> <a href="#" class="add-to-cart-btn">ADD
                       TO CART</a> </div>
                 </div>
                 <!-- Single gallery Item -->
                 <div class="single_gallery_item">
                   <!-- Product Image -->
-                  <div class="product-img"> <img src="img/product-img/cases/red-alumnium.jpg"
+                  <div class="product-img"> <img src="img/product-img/cases/80/blue-aluminum.jpg"
 
                       alt="">
                     <div class="product-quicview"> <a href="#" data-toggle="modal"
@@ -444,42 +339,8 @@
                   </div>
                   <!-- Product Description -->
                   <div class="product-description">
-                    <h4 class="product-price">$89.90</h4>
-                    <p>Red alumnium case</p>
-                    <!-- Add to Cart --> <a href="#" class="add-to-cart-btn">ADD
-                      TO CART</a> </div>
-                </div>
-                <!-- Single gallery Item -->
-                <div class="single_gallery_item">
-                  <!-- Product Image -->
-                  <div class="product-img"> <img src="img/product-img/cases/blue-alumium-case.jpg"
-
-                      alt="">
-                    <div class="product-quicview"> <a href="#" data-toggle="modal"
-
-                        data-target="#quickview"><i class="ti-plus"></i></a> </div>
-                  </div>
-                  <!-- Product Description -->
-                  <div class="product-description">
-                    <h4 class="product-price">$89.90</h4>
-                    <p>Blue alumium case</p>
-                    <!-- Add to Cart --> <a href="#" class="add-to-cart-btn">ADD
-                      TO CART</a> </div>
-                </div>
-                <!-- Single gallery Item -->
-                <div class="single_gallery_item">
-                  <!-- Product Image -->
-                  <div class="product-img"> <img src="img/product-img/keycaps/sa-white.png"
-
-                      alt="">
-                    <div class="product-quicview"> <a href="#" data-toggle="modal"
-
-                        data-target="#quickview"><i class="ti-plus"></i></a> </div>
-                  </div>
-                  <!-- Product Description -->
-                  <div class="product-description">
-                    <h4 class="product-price">$89.90</h4>
-                    <p>SA White Keycaps</p>
+                    <h4 class="product-price">$129.99</h4>
+                    <p>80% Blue Aluminum</p>
                     <!-- Add to Cart --> <a href="#" class="add-to-cart-btn">ADD
                       TO CART</a> </div>
                 </div>
@@ -512,7 +373,7 @@
             <div class="col-12 col-sm-6 col-md-3 col-lg-2">
               <div class="single_footer_area">
                 <ul class="footer_widget_menu">
-                  <li><a href="#">About</a></li>
+                <li><a href="map.php">Site Map</a></li>
                   <li><a href="#">Blog</a></li>
                   <li><a href="#">Faq</a></li>
                   <li><a href="#">Returns</a></li>
@@ -578,6 +439,5 @@
     <script src="js/plugins.js"></script>
     <!-- Active js -->
     <script src="js/active.js"></script>
-    
   </body>
 </html>
