@@ -134,15 +134,56 @@
         </div>
       </section>
       <!-- ****** Top Discount Area End ****** -->
-    <h4>Thank you for your Order</h4>
+      <div class="checkout_area section_padding_100">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-6">
+              <div class="checkout_details_area mt-50 clearfix">
+                <h4>Thank you for your Order</h4>
 
-    <?php
-        $email=htmlspecialchars($_POST["email_address"]);
-      
+                  <?php
 
-        echo "Email: " . $email . "<br />";
-        echo "<span class='simpleCart_item_name'></span>"
-        
-    ?>
+                      $email=htmlspecialchars($_POST["email_address"]);
+                      $first_name = htmlspecialchars($_POST["first_name"]);
+                      $last_name = htmlspecialchars($_POST["last_name"]);
+                      $street1 = htmlspecialchars($_POST["street1"]);
+                      $city = htmlspecialchars($_POST["city"]);
+                      $postcode = htmlspecialchars($_POST["postcode"]);
+                      $state = htmlspecialchars($_POST["state"]);
+                      $country = htmlspecialchars($_POST["country"]);
+
+                      echo "Order Number: " . uniqid() . "<br />";
+                      echo "Order Date: " . date("l d/m/Y") . "<br />";
+                      echo "Customer: " . $first_name . " " . $last_name . "<br /><br />"; 
+                      echo "<h5>Shipping Address</h4>";
+                      echo $street1 . "<br />" . $city . ", " . $postcode . "<br />";
+                      echo $state . ", " . $country . "<br />";
+                      echo $email . "<br />";
+
+                      ?>
+              </div>
+            </div>
+          
+
+            <div class='col-12 col-md-6 col-lg-5 ml-lg-auto'>
+                <div class='order-details-confirmation'>
+
+                    <div class='cart-page-heading'>
+                        <h5>Your Order</h5>
+                        <p>The Details</p>
+                    </div>
+
+                    <ul class='order-details-form mb-4'>
+                        <li><span>Product</span> <span>Total</span></li>
+                        <li><span>Cocktail Yellow dress</span> <span>$59.90</span></li>
+                        <li><span>Subtotal</span> <span class='simpleCart_total'></span></li>
+                        <li><span>Shipping</span> <span class='simpleCart_shipping'></span></li>
+                        <li><span>Total</span> <span class='simpleCart_grandTotal'></span></li>
+                    </ul>
+                </div>
+            </div>
+          </div>
+      </div>
+    </div>
 </body>
 </html>
