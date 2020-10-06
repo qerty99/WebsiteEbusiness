@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<?php include('login.php'); ?>
 <html lang="en">
   <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/simpleCart.js"></script>
+    <script src="js/simplecartjs-config.js"></script>
     <!-- Title  -->
     <title>Suited Switch | SA keycaps</title>
     <!-- Favicon  -->
@@ -76,13 +79,12 @@
                   <!-- Cart & Menu Area -->
                   <div class="header-cart-menu d-flex align-items-center ml-auto">
                     <!-- Cart Area -->
-                    <div class="cart"> <a href="#" id="header-cart-btn" target="_blank">Your
-                        Shopping Cart $0.00 </a>
+                    <div class="cart"> <a href="#" id="header-cart-btn" target="_blank">Your Shopping Cart(<span class="simpleCart_quantity"></span>) <span class ="simpleCart_total"></span> </a>
                       <!-- Cart List Area Start -->
                       <ul class="cart-list">
                         <li class="total"> <span class="pull-right">Total:
-                            $0.00</span> <a href="cart.html" class="btn btn-sm btn-cart">Cart</a>
-                          <a href="checkout-1.html" class="btn btn-sm btn-checkout">Checkout</a>
+                          <span class ="simpleCart_total"></span></span> <a href="cart.php" class="btn btn-sm btn-cart">Cart</a>
+                          <a href="checkout-1.php" class="btn btn-sm btn-checkout">Checkout</a>
                         </li>
                       </ul>
                     </div>
@@ -107,41 +109,7 @@
 
                       class="fa fa-linkedin" aria-hidden="true"></i></a> </div>
                 <!-- Menu Area -->
-                <div class="main-menu-area">
-                  <nav class="navbar navbar-expand-lg align-items-start"> <button
-
-                      class="navbar-toggler" type="button" data-toggle="collapse"
-
-                      data-target="#karl-navbar" aria-controls="karl-navbar" aria-expanded="false"
-
-                      aria-label="Toggle navigation"><span class="navbar-toggler-icon"><i
-
-                          class="ti-menu"></i></span></button>
-                    <div class="collapse navbar-collapse align-items-start collapse"
-
-                      id="karl-navbar">
-                      <ul class="navbar-nav animated" id="nav">
-                        <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="aboutus.html">About
-                            Us</a></li>
-                        <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle"
-
-                            href="#" id="karlDropdown" role="button" data-toggle="dropdown"
-
-                            aria-haspopup="true" aria-expanded="false"><span class="karl-level">Sale</span>Store</a>
-                          <div class="dropdown-menu" aria-labelledby="karlDropdown">
-                            <a class="dropdown-item" href="cases-shop.html">Cases</a>
-                            <a class="dropdown-item" href="keycaps.html">Keycaps</a>
-                            <a class="dropdown-item" href="pcb.html">PCBs</a> </div>
-                        </li>
-                        <li class="nav-item"><a class="nav-link" href="custom.html">Custom
-                            Builds</a></li>
-                        <li class="nav-item"><a class="nav-link" href="contact_us.html">Contact
-                            Us</a></li>
-                      </ul>
-                    </div>
-                  </nav>
-                </div>
+                <?php include('menu.php'); ?>
                 <!-- Help Line -->
                 <div class="help-line"> <a href="tel:+346573556778"><i class="ti-headphone-alt"></i>
                     +34 657 3556 778</a> </div>
@@ -174,11 +142,11 @@
             <div class="row">
               <div class="col-12">
                 <ol class="breadcrumb d-flex align-items-center">
-                  <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                  <li class="breadcrumb-item"><a href="keycaps.html">Keycaps</a></li>
+                  <li class="breadcrumb-item"><a href="index.php">Home</a></li>
+                  <li class="breadcrumb-item"><a href="keycaps.php">Keycaps</a></li>
                   <li class="breadcrumb-item active">SA Keycaps</li>
                 </ol>
-                <!-- btn --> <a href="keycaps.html" class="backToHome d-block">
+                <!-- btn --> <a href="keycaps.php" class="backToHome d-block">
                   Back to Category</a> </div>
             </div>
           </div>
@@ -186,6 +154,8 @@
         <!-- <<<<<<<<<<<<<<<<<<<< Breadcumb Area End <<<<<<<<<<<<<<<<<<<< -->
         <!-- <<<<<<<<<<<<<<<<<<<< Single Product Details Area Start >>>>>>>>>>>>>>>>>>>>>>>>> -->
         <section class="single_product_details_area section_padding_0_100">
+          <div class="product">
+          <div class="simpleCart_shelfItem">
           <div class="container">
             <div class="row">
               <div class="col-12 col-md-6">
@@ -216,20 +186,20 @@
                     <div class="carousel-inner">
                       <div class="carousel-item active"> <a class="gallery_img"
 
-                          href="img/product-img/keycaps/sa-blue.png"> <img class="d-block w-100"
+                          href="img/product-img/keycaps/sa-blue.png"> <img class="item_image product_image"
 
-                            src="img/product-img/keycaps/sa-blue.png" alt="First slide">
+                            src="img/product-img/keycaps/sa-blue.png" alt="SA Keycaps">
                         </a> </div>
                       <div class="carousel-item"> <a class="gallery_img" href="img/product-img/keycaps/sa-white.png">
-                          <img class="d-block w-100" src="img/product-img/keycaps/sa-white.png"
+                          <img class="item_image product_image" src="img/product-img/keycaps/sa-white.png"
 
                             alt="Second slide"> </a> </div>
                       <div class="carousel-item"> <a class="gallery_img" href="img/product-img/keycaps/sa-black.png">
-                          <img class="d-block w-100" src="img/product-img/keycaps/sa-black.png"
+                          <img class="item_image product_image" src="img/product-img/keycaps/sa-black.png"
 
                             alt="Third slide"> </a> </div>
                       <div class="carousel-item"> <a class="gallery_img" href="img/product-img/keycaps/sa-pink.png">
-                          <img class="d-block w-100" src="img/product-img/keycaps/sa-pink.png"
+                          <img class="item_image product_image" src="img/product-img/keycaps/sa-pink.png"
 
                             alt="Fourth slide"> </a> </div>
                     </div>
@@ -238,8 +208,8 @@
               </div>
               <div class="col-12 col-md-6">
                 <div class="single_product_desc">
-                  <h4 class="title"><a href="#">SA Keycaps</a></h4>
-                  <h4 class="price">$ 89.99</h4>
+                  <h4 class="item_name"><a href="#">SA Keycaps</a></h4>
+                  <span class="item_price">$ 89.99</span><br />
                   <p class="available">Available: <span class="text-muted">In
                       Stock</span></p>
                   <div class="single_product_ratings mb-15"> <i class="fa fa-star"
@@ -251,38 +221,29 @@
                   </div>
                   <div class="widget size mb-50">
                     <h6 class="widget-title">Colour</h6>
-                    <div class="widget-desc">
-                      <ul>
-                        <li><a href="#" ,="" class="medium-desc">Blue</a></li>
-                        <li><a href="#" ,="" class="medium-desc">White</a></li>
-                        <li><a href="#" ,="" class="medium-desc">Black</a></li>
-                        <li><a href="#" ,="" class="medium-desc">Pink</a></li>
-                      </ul>
-                    </div>
+                    <select class="item_size">
+                      <option value="Blue">Blue</option>
+                      <option value="White">White</option>
+                      <option value="Black">Black</option>
+                      <option value="Pink">Pink</option>
+                    </select>
+                  </div>
+                  
                     <p></p>
                     <div class="widget size mb-50">
                       <h6 class="widget-title">Size</h6>
-                      <div class="widget-desc">
-                        <ul>
-                          <li><a href="#" ,="" class="medium-desc">60%</a></li>
-                          <li><a href="#" ,="" class="medium-desc">80%</a></li>
-                          <li><a href="#" ,="" class="medium-desc">100%</a></li>
-                        </ul>
-                      </div>
+                      <select class="item_size">
+                          <option value="60%">60%</option>
+                          <option value="80%">80%</option>
+                          <option value="100%">100%</option>
+                      </select>    
                     </div>
+
                     <!-- Add to Cart Form -->
-                    <form class="cart clearfix mb-50 d-flex" method="post">
-                      <div class="quantity"> <span class="qty-minus" onclick="var effect = document.getElementById('qty'); var qty = effect.value; if( !isNaN( qty ) &amp;&amp; qty > 1 ) effect.value--;return false;"><i
+                    <input type="text" value="1" class="item_quantity" /><br />
+                    <p></p>
+                    <p><a class="item_add" href="javascript:;">Add to Cart</a></p>
 
-                            class="fa fa-minus" aria-hidden="true"></i></span> <input
-
-                          class="qty-text" id="qty" step="1" min="1" max="12" name="quantity"
-
-                          value="1" type="number"> <span class="qty-plus" onclick="var effect = document.getElementById('qty'); var qty = effect.value; if( !isNaN( qty )) effect.value++;return false;"><i
-
-                            class="fa fa-plus" aria-hidden="true"></i></span> </div>
-                      <button type="submit" name="addtocart" value="5" class="btn cart-submit d-block">Add
-                        to cart</button> </form>
                     <div id="accordion" role="tablist">
                       <div class="card">
                         <div class="card-header" role="tab" id="headingOne">
@@ -307,6 +268,7 @@
               </div>
             </div>
           </div>
+        </div>
         </section>
         <!-- <<<<<<<<<<<<<<<<<<<< Single Product Details Area End >>>>>>>>>>>>>>>>>>>>>>>>> -->
         <!-- ****** Quick View Modal Area Start ****** -->
@@ -359,11 +321,11 @@
                           <button type="submit" name="addtocart" value="5" class="cart-submit">Add
                             to cart</button>
                           <!-- Wishlist -->
-                          <div class="modal_pro_wishlist"> <a href="wishlist.html"
+                          <div class="modal_pro_wishlist"> <a href="wishlist.php"
 
                               target="_blank"><i class="ti-heart"></i></a> </div>
                           <!-- Compare -->
-                          <div class="modal_pro_compare"> <a href="compare.html"
+                          <div class="modal_pro_compare"> <a href="compare.php"
 
                               target="_blank"><i class="ti-stats-up"></i></a> </div>
                         </form>
@@ -404,7 +366,7 @@
                   <!-- Single gallery Item -->
                   <div class="single_gallery_item">
                     <!-- Product Image -->
-                    <div class="product-img"> <img src="img/product-img/keycaps/ch-blue.png"
+                    <div class="item_image product_imag"> <img src="img/product-img/keycaps/ch-blue.png"
 
                         alt="">
                       <div class="product-quicview"> <a href="#" data-toggle="modal"
@@ -515,7 +477,7 @@
               <div class="col-12 col-sm-6 col-md-3 col-lg-2">
                 <div class="single_footer_area">
                   <ul class="footer_widget_menu">
-                    <li><a href="#">About</a></li>
+                  <li><a href="map.php">Site Map</a></li>
                     <li><a href="#">Blog</a></li>
                     <li><a href="#">Faq</a></li>
                     <li><a href="#">Returns</a></li>
@@ -541,11 +503,10 @@
                     <h6>Subscribe to our newsletter</h6>
                   </div>
                   <div class="subscribtion_form">
-                    <form action="#" method="post"> <input name="mail" class="mail"
-
-                        placeholder="Your email here" type="email"> <button type="submit"
-
-                        class="submit">Subscribe</button> </form>
+                    <form action="#" method="post"> 
+                      <input name="email" class="mail" placeholder="Your email here" type="email">
+                      <button type="submit" name="email-submit" class="submit">Subscribe</button> 
+                    </form>
                   </div>
                 </div>
               </div>

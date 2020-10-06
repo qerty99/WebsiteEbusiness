@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<?php include('Login.php'); ?>
 <html lang="en">
   <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
@@ -27,7 +27,8 @@
               <div class="col-12 col-lg-7">
                 <div class="top_single_area d-flex align-items-center">
                   <!-- Logo Area -->
-                  <div class="top_logo"> <a href="#"><img src="img/core-img/logo.png"
+                  <div class="top_logo"> <a href="#"><img src="img/core-img/logo.png"
+
                         alt=""></a> </div>
                   <!-- Cart & Menu Area -->
                   <div class="header-cart-menu d-flex align-items-center ml-auto">
@@ -55,39 +56,15 @@
               <div class="col-12 d-md-flex justify-content-between">
                 <!-- Header Social Area -->
                 <div class="header-social-area"> <a href="#"><span class="karl-level">Share</span>
-                    <i class="fa fa-pinterest" aria-hidden="true"></i></a> <a href="#"><i
-                      class="fa fa-facebook" aria-hidden="true"></i></a> <a href="#"><i
-                      class="fa fa-twitter" aria-hidden="true"></i></a> <a href="#"><i
+                    <i class="fa fa-pinterest" aria-hidden="true"></i></a> <a href="#"><i
+
+                      class="fa fa-facebook" aria-hidden="true"></i></a> <a href="#"><i
+
+                      class="fa fa-twitter" aria-hidden="true"></i></a> <a href="#"><i
+
                       class="fa fa-linkedin" aria-hidden="true"></i></a> </div>
                 <!-- Menu Area -->
-                <div class="main-menu-area">
-                  <nav class="navbar navbar-expand-lg align-items-start"> <button
-                      class="navbar-toggler" type="button" data-toggle="collapse"
-                      data-target="#karl-navbar" aria-controls="karl-navbar" aria-expanded="false"
-                      aria-label="Toggle navigation"><span class="navbar-toggler-icon"><i
-                          class="ti-menu"></i></span></button>
-                    <div class="collapse navbar-collapse align-items-start collapse"
-                      id="karl-navbar">
-                      <ul class="navbar-nav animated" id="nav">
-                        <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">About
-                            Us</a></li>
-                        <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle"
-                            href="#" id="karlDropdown" role="button" data-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false"><span class="karl-level">Sale</span>Store</a>
-                          <div class="dropdown-menu" aria-labelledby="karlDropdown">
-                            <a class="dropdown-item" href="cases-shop.html">Cases</a>
-                            <a class="dropdown-item" href="keycaps.html">Keycaps</a>
-                            <a class="dropdown-item" href="pcb.html">PCBs</a> </div>
-                        </li>
-                        <li class="nav-item"><a class="nav-link" href="custom.html">Custom
-                            Builds</a></li>
-                        <li class="nav-item"><a class="nav-link" href="contact_us.html">Contact
-                            Us</a></li>
-                      </ul>
-                    </div>
-                  </nav>
-                </div>
+                <?php include('menu.php'); ?>
                 <!-- Help Line -->
                 <div class="help-line"> <a href="tel:+346573556778"><i class="ti-headphone-alt"></i>
                     +34 657 3556 778</a> </div>
@@ -128,7 +105,8 @@
                   <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                     Copyright ©
                     <script>document.write(new Date().getFullYear());</script>
-                    All rights reserved | This template is made with by <a href="https://colorlib.com"
+                    All rights reserved | This template is made with by <a href="https://colorlib.com"
+
                       target="_blank">Colorlib</a>
                     <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
                 </div>
@@ -164,8 +142,10 @@
                   <h6>Subscribe to our newsletter</h6>
                 </div>
                 <div class="subscribtion_form">
-                  <form action="#" method="post"> <input name="mail" class="mail"
-                      placeholder="Your email here" type="email"> <button type="submit"
+                  <form action="#" method="post"> <input name="mail" class="mail"
+
+                      placeholder="Your email here" type="email"> <button type="submit"
+
                       class="submit">Subscribe</button> </form>
                 </div>
               </div>
@@ -176,10 +156,14 @@
           <div class="footer_bottom_area">
             <div class="row">
               <div class="col-12">
-                <div class="footer_social_area text-center"> <a href="#"><i class="fa fa-pinterest"
-                      aria-hidden="true"></i></a> <a href="#"><i class="fa fa-facebook"
-                      aria-hidden="true"></i></a> <a href="#"><i class="fa fa-twitter"
-                      aria-hidden="true"></i></a> <a href="#"><i class="fa fa-linkedin"
+                <div class="footer_social_area text-center"> <a href="#"><i class="fa fa-pinterest"
+
+                      aria-hidden="true"></i></a> <a href="#"><i class="fa fa-facebook"
+
+                      aria-hidden="true"></i></a> <a href="#"><i class="fa fa-twitter"
+
+                      aria-hidden="true"></i></a> <a href="#"><i class="fa fa-linkedin"
+
                       aria-hidden="true"></i></a> </div>
               </div>
             </div>

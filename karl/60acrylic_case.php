@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<?php include('login.php'); ?>
 <html lang="en">
 
 <head>
@@ -9,7 +9,7 @@
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <!-- Title  -->
-    <title>Karl - Fashion Ecommerce Template | Product Details</title>
+    <title>The Suited Switch | 60% Acrylic Case</title>
 
     <!-- Favicon  -->
     <link rel="icon" href="img/core-img/favicon.ico">
@@ -24,75 +24,6 @@
 </head>
 
 <body>
-    <div class="catagories-side-menu">
-        <!-- Close Icon -->
-        <div id="sideMenuClose">
-            <i class="ti-close"></i>
-        </div>
-        <!--  Side Nav  -->
-        <div class="nav-side-menu">
-            <div class="menu-list">
-                <h6>Categories</h6>
-                <ul id="menu-content" class="menu-content collapse out">
-                    <!-- Single Item -->
-                    <li data-toggle="collapse" data-target="#women" class="collapsed active">
-                        <a href="#">Woman wear <span class="arrow"></span></a>
-                        <ul class="sub-menu collapse" id="women">
-                            <li><a href="#">Midi Dresses</a></li>
-                            <li><a href="#">Maxi Dresses</a></li>
-                            <li><a href="#">Prom Dresses</a></li>
-                            <li><a href="#">Little Black Dresses</a></li>
-                            <li><a href="#">Mini Dresses</a></li>
-                        </ul>
-                    </li>
-                    <!-- Single Item -->
-                    <li data-toggle="collapse" data-target="#man" class="collapsed">
-                        <a href="#">Man Wear <span class="arrow"></span></a>
-                        <ul class="sub-menu collapse" id="man">
-                            <li><a href="#">Man Dresses</a></li>
-                            <li><a href="#">Man Black Dresses</a></li>
-                            <li><a href="#">Man Mini Dresses</a></li>
-                        </ul>
-                    </li>
-                    <!-- Single Item -->
-                    <li data-toggle="collapse" data-target="#kids" class="collapsed">
-                        <a href="#">Children <span class="arrow"></span></a>
-                        <ul class="sub-menu collapse" id="kids">
-                            <li><a href="#">Children Dresses</a></li>
-                            <li><a href="#">Mini Dresses</a></li>
-                        </ul>
-                    </li>
-                    <!-- Single Item -->
-                    <li data-toggle="collapse" data-target="#bags" class="collapsed">
-                        <a href="#">Bags &amp; Purses <span class="arrow"></span></a>
-                        <ul class="sub-menu collapse" id="bags">
-                            <li><a href="#">Bags</a></li>
-                            <li><a href="#">Purses</a></li>
-                        </ul>
-                    </li>
-                    <!-- Single Item -->
-                    <li data-toggle="collapse" data-target="#eyewear" class="collapsed">
-                        <a href="#">Eyewear <span class="arrow"></span></a>
-                        <ul class="sub-menu collapse" id="eyewear">
-                            <li><a href="#">Eyewear Style 1</a></li>
-                            <li><a href="#">Eyewear Style 2</a></li>
-                            <li><a href="#">Eyewear Style 3</a></li>
-                        </ul>
-                    </li>
-                    <!-- Single Item -->
-                    <li data-toggle="collapse" data-target="#footwear" class="collapsed">
-                        <a href="#">Footwear <span class="arrow"></span></a>
-                        <ul class="sub-menu collapse" id="footwear">
-                            <li><a href="#">Footwear 1</a></li>
-                            <li><a href="#">Footwear 2</a></li>
-                            <li><a href="#">Footwear 3</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-
     <div id="wrapper">
 
         <!-- ****** Header Area Start ****** -->
@@ -109,46 +40,24 @@
                                     <a href="#"><img src="img/core-img/logo.png" alt=""></a>
                                 </div>
                                 <!-- Cart & Menu Area -->
-                                <div class="header-cart-menu d-flex align-items-center ml-auto">
-                                    <!-- Cart Area -->
-                                    <div class="cart">
-                                        <a href="#" id="header-cart-btn" target="_blank"><span class="cart_quantity">2</span> <i class="ti-bag"></i> Your Bag $20</a>
-                                        <!-- Cart List Area Start -->
-                                        <ul class="cart-list">
-                                            <li>
-                                                <a href="#" class="image"><img src="img/product-img/product-10.jpg" class="cart-thumb" alt=""></a>
-                                                <div class="cart-item-desc">
-                                                    <h6><a href="#">Women's Fashion</a></h6>
-                                                    <p>1x - <span class="price">$10</span></p>
-                                                </div>
-                                                <span class="dropdown-product-remove"><i class="icon-cross"></i></span>
-                                            </li>
-                                            <li>
-                                                <a href="#" class="image"><img src="img/product-img/product-11.jpg" class="cart-thumb" alt=""></a>
-                                                <div class="cart-item-desc">
-                                                    <h6><a href="#">Women's Fashion</a></h6>
-                                                    <p>1x - <span class="price">$10</span></p>
-                                                </div>
-                                                <span class="dropdown-product-remove"><i class="icon-cross"></i></span>
-                                            </li>
-                                            <li class="total">
-                                                <span class="pull-right">Total: $20.00</span>
-                                                <a href="cart.html" class="btn btn-sm btn-cart">Cart</a>
-                                                <a href="checkout-1.html" class="btn btn-sm btn-checkout">Checkout</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="header-right-side-menu ml-15">
-                                        <a href="#" id="sideMenuBtn"><i class="ti-menu" aria-hidden="true"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
+                <div class="header-cart-menu d-flex align-items-center ml-auto">
+                    <!-- Cart Area -->
+                    <div class="cart"> <a href="#" id="header-cart-btn" target="_blank">Your
+                        Shopping Cart $0.00 </a>
+                      <!-- Cart List Area Start -->
+                      <ul class="cart-list">
+                        <li class="total"> <span class="pull-right">Total: $0.00</span>
+                          <a href="cart.html" class="btn btn-sm btn-cart">Cart</a>
+                          <a href="checkout-1.html" class="btn btn-sm btn-checkout">Checkout</a>
+                        </li>
+                      </ul>
                     </div>
+                  </div>
                 </div>
+              </div>
             </div>
-
+          </div>
+        </div>
             <!-- Top Header Area End -->
             <div class="main_header_area">
                 <div class="container h-100">
@@ -162,31 +71,7 @@
                                 <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                             </div>
                             <!-- Menu Area -->
-                            <div class="main-menu-area">
-                                <nav class="navbar navbar-expand-lg align-items-start">
-
-                                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#karl-navbar" aria-controls="karl-navbar" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"><i class="ti-menu"></i></span></button>
-
-                                    <div class="collapse navbar-collapse align-items-start collapse" id="karl-navbar">
-                                        <ul class="navbar-nav animated" id="nav">
-                                            <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
-                                            <li class="nav-item dropdown">
-                                                <a class="nav-link dropdown-toggle" href="#" id="karlDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
-                                                <div class="dropdown-menu" aria-labelledby="karlDropdown">
-                                                    <a class="dropdown-item" href="index.html">Home</a>
-                                                    <a class="dropdown-item" href="shop.html">Shop</a>
-                                                    <a class="dropdown-item" href="product-details.html">Product Details</a>
-                                                    <a class="dropdown-item" href="cart.html">Cart</a>
-                                                    <a class="dropdown-item" href="checkout.html">Checkout</a>
-                                                </div>
-                                            </li>
-                                            <li class="nav-item"><a class="nav-link" href="#">Dresses</a></li>
-                                            <li class="nav-item"><a class="nav-link" href="#"><span class="karl-level">hot</span> Shoes</a></li>
-                                            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
-                                        </ul>
-                                    </div>
-                                </nav>
-                            </div>
+                            <?php include('menu.php'); ?>
                             <!-- Help Line -->
                             <div class="help-line">
                                 <a href="tel:+346573556778"><i class="ti-headphone-alt"></i> +34 657 3556 778</a>
@@ -206,7 +91,7 @@
             </div>
             <!-- Single Discount Area -->
             <div class="single-discount-area">
-                <h5>20% Discount for all dresses</h5>
+                <h5>20% Discount off selected products</h5>
                 <h6>USE CODE: Colorlib</h6>
             </div>
             <!-- Single Discount Area -->
@@ -223,11 +108,11 @@
                     <div class="col-12">
                         <ol class="breadcrumb d-flex align-items-center">
                             <li class="breadcrumb-item"><a href="#">Home</a></li>
-                            <li class="breadcrumb-item"><a href="#">Dresses</a></li>
-                            <li class="breadcrumb-item active">Long Dress</li>
+                            <li class="breadcrumb-item"><a href="60cases.html">60% Cases</a></li>
+                            <li class="breadcrumb-item active">60% Frosted Acrylic Case</li>
                         </ol>
                         <!-- btn -->
-                        <a href="#" class="backToHome d-block"><i class="fa fa-angle-double-left"></i> Back to Category</a>
+                        <a href="cases-shop.html" class="backToHome d-block"><i class="fa fa-angle-double-left"></i> Back to Cases</a>
                     </div>
                 </div>
             </div>
@@ -244,35 +129,35 @@
                             <div id="product_details_slider" class="carousel slide" data-ride="carousel">
 
                                 <ol class="carousel-indicators">
-                                    <li class="active" data-target="#product_details_slider" data-slide-to="0" style="background-image: url(img/product-img/product-9.jpg);">
+                                    <li class="active" data-target="#product_details_slider" data-slide-to="0" style="background-image: url(img/product-img/cases/60%/white-acryllic.jpg);">
                                     </li>
-                                    <li data-target="#product_details_slider" data-slide-to="1" style="background-image: url(img/product-img/product-2.jpg);">
+                                    <li data-target="#product_details_slider" data-slide-to="1" style="background-image: url(img/product-img/cases/60%/black-acryllic.jpg);">
                                     </li>
-                                    <li data-target="#product_details_slider" data-slide-to="2" style="background-image: url(img/product-img/product-3.jpg);">
+                                    <li data-target="#product_details_slider" data-slide-to="2" style="background-image: url(img/product-img/cases/60%/blue-acryllic.jpg);">
                                     </li>
-                                    <li data-target="#product_details_slider" data-slide-to="3" style="background-image: url(img/product-img/product-4.jpg);">
+                                    <li data-target="#product_details_slider" data-slide-to="3" style="background-image: url(img/product-img/cases/60%/red-acyllic.jpg);">
                                     </li>
                                 </ol>
 
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
-                                        <a class="gallery_img" href="img/product-img/product-9.jpg">
-                                        <img class="d-block w-100" src="img/product-img/product-9.jpg" alt="First slide">
+                                        <a class="gallery_img" href="img/product-img/cases/60%/white-acryllic.jpg">
+                                        <img class="d-block w-100" src="img/product-img/cases/60%/white-acryllic.jpg" alt="First slide">
                                     </a>
                                     </div>
                                     <div class="carousel-item">
-                                        <a class="gallery_img" href="img/product-img/product-2.jpg">
-                                        <img class="d-block w-100" src="img/product-img/product-2.jpg" alt="Second slide">
+                                        <a class="gallery_img" href="img/product-img/cases/60%/black-acryllic.jpg">
+                                        <img class="d-block w-100" src="img/product-img/cases/60%/black-acryllic.jpg" alt="Second slide">
                                     </a>
                                     </div>
                                     <div class="carousel-item">
-                                        <a class="gallery_img" href="img/product-img/product-3.jpg">
-                                        <img class="d-block w-100" src="img/product-img/product-3.jpg" alt="Third slide">
+                                        <a class="gallery_img" href="img/product-img/cases/60%/blue-acryllic.jpg">
+                                        <img class="d-block w-100" src="img/product-img/cases/60%/blue-acryllic.jpg" alt="Second slide">
                                     </a>
                                     </div>
                                     <div class="carousel-item">
-                                        <a class="gallery_img" href="img/product-img/product-4.jpg">
-                                        <img class="d-block w-100" src="img/product-img/product-4.jpg" alt="Fourth slide">
+                                        <a class="gallery_img" href="img/product-img/cases/60%/red-acyllic.jpg">
+                                        <img class="d-block w-100" src="img/product-img/cases/60%/red-acyllic.jpg" alt="Second slide">
                                     </a>
                                     </div>
                                 </div>
@@ -283,9 +168,9 @@
                     <div class="col-12 col-md-6">
                         <div class="single_product_desc">
 
-                            <h4 class="title"><a href="#">Long Yellow Dress</a></h4>
+                            <h4 class="title"><a href="#">60% Frosted Acrylic Case</a></h4>
 
-                            <h4 class="price">$ 39.99</h4>
+                            <h4 class="price">$39.00</h4>
 
                             <p class="available">Available: <span class="text-muted">In Stock</span></p>
 
@@ -298,15 +183,13 @@
                             </div>
 
                             <div class="widget size mb-50">
-                                <h6 class="widget-title">Size</h6>
+                                <h6 class="widget-title">Colour</h6>
                                 <div class="widget-desc">
                                     <ul>
-                                        <li><a href="#">32</a></li>
-                                        <li><a href="#">34</a></li>
-                                        <li><a href="#">36</a></li>
-                                        <li><a href="#">38</a></li>
-                                        <li><a href="#">40</a></li>
-                                        <li><a href="#">42</a></li>
+                                        <li><a href="#", class='medium-desc'>White</a></li>
+                                        <li><a href="#", class='medium-desc'>Black</a></li>
+                                        <li><a href="#">Blue</a></li>
+                                        <li><a href="#">Red</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -331,9 +214,10 @@
 
                                     <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
                                         <div class="card-body">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pharetra tempor so dales. Phasellus sagittis auctor gravida. Integ er bibendum sodales arcu id te mpus. Ut consectetur lacus.</p>
-                                            <p>Approx length 66cm/26" (Based on a UK size 8 sample) Mixed fibres</p>
-                                            <p>The Model wears a UK size 8/ EU size 36/ US size 4 and her height is 5'8"</p>
+                                            <p>Frosted Acrylic 60% Mechanical Keyboard Case</p>
+                                            <p>60% Layout Compatible</p>
+                                            <p>Compatible with most 60% PCBs(dz60, face w, gh60)</p>
+                                            <p>Available in White, Black, Red & Blue</p>
                                         </div>
                                     </div>
                                 </div>
@@ -427,40 +311,22 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="you_make_like_slider owl-carousel">
-
+                            <!--Will need to change this once more products are added-->
                             <!-- Single gallery Item -->
                             <div class="single_gallery_item">
                                 <!-- Product Image -->
                                 <div class="product-img">
-                                    <img src="img/product-img/cases/white-alumium.jpg" alt="">
+                                    <img src="img/product-img/cases/60%/rosewood.jpg" alt="">
                                     <div class="product-quicview">
                                         <a href="#" data-toggle="modal" data-target="#quickview"><i class="ti-plus"></i></a>
                                     </div>
                                 </div>
                                 <!-- Product Description -->
                                 <div class="product-description">
-                                    <h4 class="product-price">$89.99</h4>
-                                    <p>60% Aluminum Case</p>
+                                    <h4 class="product-price">$49.99</h4>
+                                    <p>60% Wooden Case</p>
                                     <!-- Add to Cart -->
-                                    <a href="#" class="add-to-cart-btn">ADD TO CART</a>
-                                </div>
-                            </div>
-                            <!--Aysha added above image, we will replace these images as we add more products unless we scrap-->
-                            <!-- Single gallery Item -->
-                            <div class="single_gallery_item">
-                                <!-- Product Image -->
-                                <div class="product-img">
-                                    <img src="img/product-img/product-2.jpg" alt="">
-                                    <div class="product-quicview">
-                                        <a href="#" data-toggle="modal" data-target="#quickview"><i class="ti-plus"></i></a>
-                                    </div>
-                                </div>
-                                <!-- Product Description -->
-                                <div class="product-description">
-                                    <h4 class="product-price">$39.90</h4>
-                                    <p>Jeans midi cocktail dress</p>
-                                    <!-- Add to Cart -->
-                                    <a href="#" class="add-to-cart-btn">ADD TO CART</a>
+                                    <a href="60wooden.html" class="add-to-cart-btn">View Details</a>
                                 </div>
                             </div>
 
@@ -468,17 +334,17 @@
                             <div class="single_gallery_item">
                                 <!-- Product Image -->
                                 <div class="product-img">
-                                    <img src="img/product-img/product-3.jpg" alt="">
+                                    <img src="img/product-img/cases/60%/white-acryllic.jpg" alt="">
                                     <div class="product-quicview">
                                         <a href="#" data-toggle="modal" data-target="#quickview"><i class="ti-plus"></i></a>
                                     </div>
                                 </div>
                                 <!-- Product Description -->
                                 <div class="product-description">
-                                    <h4 class="product-price">$39.90</h4>
-                                    <p>Jeans midi cocktail dress</p>
+                                    <h4 class="product-price">$39.00</h4>
+                                    <p>60% Frosted Acrylic Case</p>
                                     <!-- Add to Cart -->
-                                    <a href="#" class="add-to-cart-btn">ADD TO CART</a>
+                                    <a href="60acrylic_case.html" class="add-to-cart-btn">View Details</a>
                                 </div>
                             </div>
 
@@ -486,35 +352,17 @@
                             <div class="single_gallery_item">
                                 <!-- Product Image -->
                                 <div class="product-img">
-                                    <img src="img/product-img/product-4.jpg" alt="">
+                                    <img src="img/product-img/cases/60%/clear-plastic.jpg" alt="">
                                     <div class="product-quicview">
                                         <a href="#" data-toggle="modal" data-target="#quickview"><i class="ti-plus"></i></a>
                                     </div>
                                 </div>
                                 <!-- Product Description -->
                                 <div class="product-description">
-                                    <h4 class="product-price">$39.90</h4>
-                                    <p>Jeans midi cocktail dress</p>
+                                    <h4 class="product-price">$19.99</h4>
+                                    <p>60% Plastic Cases</p>
                                     <!-- Add to Cart -->
-                                    <a href="#" class="add-to-cart-btn">ADD TO CART</a>
-                                </div>
-                            </div>
-
-                            <!-- Single gallery Item -->
-                            <div class="single_gallery_item">
-                                <!-- Product Image -->
-                                <div class="product-img">
-                                    <img src="img/product-img/product-5.jpg" alt="">
-                                    <div class="product-quicview">
-                                        <a href="#" data-toggle="modal" data-target="#quickview"><i class="ti-plus"></i></a>
-                                    </div>
-                                </div>
-                                <!-- Product Description -->
-                                <div class="product-description">
-                                    <h4 class="product-price">$39.90</h4>
-                                    <p>Jeans midi cocktail dress</p>
-                                    <!-- Add to Cart -->
-                                    <a href="#" class="add-to-cart-btn">ADD TO CART</a>
+                                    <a href="60plastic_case.html" class="add-to-cart-btn">View Details</a>
                                 </div>
                             </div>
                         </div>
@@ -566,20 +414,19 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
                     <!-- Single Footer Area Start -->
                     <div class="col-12 col-lg-5">
                         <div class="single_footer_area">
-                            <div class="footer_heading mb-30">
-                                <h6>Subscribe to our newsletter</h6>
-                            </div>
-                            <div class="subscribtion_form">
-                                <form action="#" method="post">
-                                    <input type="email" name="mail" class="mail" placeholder="Your email here">
-                                    <button type="submit" class="submit">Subscribe</button>
-                                </form>
-                            </div>
+                          <div class="footer_heading mb-30">
+                            <h6>Subscribe to our newsletter</h6>
+                          </div>
+                          <div class="subscribtion_form">
+                            <form action="#" method="post"> 
+                              <input name="email" class="mail" placeholder="Your email here" type="email">
+                              <button type="submit" name="email-submit" class="submit">Subscribe</button> 
+                            </form>
+                          </div>
                         </div>
+                      </div>
                     </div>
-                </div>
-                <div class="line"></div>
-
+                    <div class="line"></div>
                 <!-- Footer Bottom Area Start -->
                 <div class="footer_bottom_area">
                     <div class="row">

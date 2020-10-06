@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<?php include('login.php'); ?>
 <html lang="en">
   <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <!-- Title  -->
-    <title>The Suited Switch | Product Details</title>
+    <title>The Suited Switch | Home</title>
     <!-- Favicon  -->
     <link rel="icon" href="img/core-img/favicon.ico">
     <!-- Core Style CSS -->
@@ -19,7 +19,7 @@
   <body>
     <div id="wrapper">
       <!-- ****** Header Area Start ****** -->
-      <header class="header_area bg-img background-overlay-white" style="background-image: url(img/bg-img/bg-3.jpg);">
+      <header class="header_area">
         <!-- Top Header Area Start -->
         <div class="top_header_area">
           <div class="container h-100">
@@ -64,41 +64,7 @@
 
                       class="fa fa-linkedin" aria-hidden="true"></i></a> </div>
                 <!-- Menu Area -->
-                <div class="main-menu-area">
-                  <nav class="navbar navbar-expand-lg align-items-start"> <button
-
-                      class="navbar-toggler" type="button" data-toggle="collapse"
-
-                      data-target="#karl-navbar" aria-controls="karl-navbar" aria-expanded="false"
-
-                      aria-label="Toggle navigation"><span class="navbar-toggler-icon"><i
-
-                          class="ti-menu"></i></span></button>
-                    <div class="collapse navbar-collapse align-items-start collapse"
-
-                      id="karl-navbar">
-                      <ul class="navbar-nav animated" id="nav">
-                        <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">About
-                            Us</a></li>
-                        <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle"
-
-                            href="#" id="karlDropdown" role="button" data-toggle="dropdown"
-
-                            aria-haspopup="true" aria-expanded="false"><span class="karl-level">Sale</span>Store</a>
-                          <div class="dropdown-menu" aria-labelledby="karlDropdown">
-                            <a class="dropdown-item" href="cases-shop.html">Cases</a>
-                            <a class="dropdown-item" href="keycaps.html">Keycaps</a>
-                            <a class="dropdown-item" href="pcb.html">PCBs</a> </div>
-                        </li>
-                        <li class="nav-item"><a class="nav-link" href="custom.html">Custom
-                            Builds</a></li>
-                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact
-                            Us</a></li>
-                      </ul>
-                    </div>
-                  </nav>
-                </div>
+                <?php include('login.php'); ?>
                 <!-- Help Line -->
                 <div class="help-line"> <a href="tel:+346573556778"><i class="ti-headphone-alt"></i>
                     +34 657 3556 778</a> </div>
@@ -108,6 +74,7 @@
         </div>
       </header>
       <!-- ****** Header Area End ****** -->
+      <!-- ****** Top Discount Area Start ****** -->
       <section class="top-discount-area d-md-flex align-items-center">
         <!-- Single Discount Area -->
         <div class="single-discount-area">
@@ -125,113 +92,58 @@
           <h6>USE CODE: Colorlib</h6>
         </div>
       </section>
-      <!-- <<<<<<<<<<<<<<<<<<<< Breadcumb Area Start <<<<<<<<<<<<<<<<<<<< -->
-      <div class="breadcumb_area">
-        <div class="container">
-          <div class="row">
-            <div class="col-12">
-              <ol class="breadcrumb d-flex align-items-center">
-                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                <li class="breadcrumb-item"><a href="pcb.html">PCB</a></li>
-                <li class="breadcrumb-item active">100% Aluminum Case</li>
-              </ol>
-              <!-- btn --> <a href="pcb.html" class="backToHome d-block"> Back
-                to Category</a> </div>
+      <!-- ****** Top Discount Area End ****** -->
+      <!-- ****** Welcome Slides Area Start ****** -->
+      <section class="welcome_area">
+        <div class="welcome_slides owl-carousel">
+          <!-- Single Slide Start -->
+          <div class="single_slide height-800 bg-img background-overlay" style="background-image: url(img/bg-img/bg-1.jpg);">
+            <div class="container h-100">
+              <div class="row h-100 align-items-center">
+                <div class="col-12">
+                  <div class="welcome_slide_text">
+                    <h6 data-animation="bounceInDown" data-delay="0" data-duration="500ms">*
+                      Free shipping on orders over $100</h6>
+                    <h2 data-animation="fadeInUp" data-delay="500ms" data-duration="500ms">Custom
+                      Keyboard Service</h2>
+                    <a href="custom.html" class="btn karl-btn" data-animation="fadeInUp" data-delay="1s"
+
+                      data-delay="1s" data-duration="500ms">Shop Now</a> </div>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-      <!-- <<<<<<<<<<<<<<<<<<<< Breadcumb Area End <<<<<<<<<<<<<<<<<<<< -->
-      <!-- <<<<<<<<<<<<<<<<<<<< Single Product Details Area Start >>>>>>>>>>>>>>>>>>>>>>>>> -->
-      <section class="single_product_details_area section_padding_0_100">
-        <div class="container">
-          <div class="row">
-            <div class="col-12 col-md-6">
-              <div class="single_product_thumb">
-                <div id="product_details_slider" class="carousel slide" data-ride="carousel">
-                  <ol class="carousel-indicators">
-                    <li class="active" data-target="#product_details_slider" data-slide-to="0"
+          <!-- Single Slide Start -->
+          <div class="single_slide height-800 bg-img background-overlay" style="background-image: url(img/bg-img/bg-4.jpg);">
+            <div class="container h-100">
+              <div class="row h-100 align-items-center">
+                <div class="col-12">
+                  <div class="welcome_slide_text">
+                    <h6 data-animation="fadeInDown" data-delay="0" data-duration="500ms">*
+                      Free shipping on orders over $100</h6>
+                    <h2 data-animation="fadeInUp" data-delay="500ms" data-duration="500ms">High
+                      Quality Cases</h2>
+                    <a href="cases-shop.html" class="btn karl-btn" data-animation="fadeInLeftBig"
 
-                      style="background-image: url(img/pcb-img/100HS.jpg);"> <br>
-                    </li>
-                    <li data-target="#product_details_slider" data-slide-to="1"
-
-                      style="background-image: url(img/pcb-img/100HS.jpg);"> <br>
-                    </li>
-                    <li data-target="#product_details_slider" data-slide-to="2"
-
-                      style="background-image: url(img/pcb-img/100HS.jpg);"> <br>
-                    </li>
-                    <li data-target="#product_details_slider" data-slide-to="3"
-
-                      style="background-image: url(img/pcb-img/100HS.jpg);"> <br>
-                    </li>
-                  </ol>
-                  <div class="carousel-inner">
-                    <div class="carousel-item active"> <a class="gallery_img" href="img/pcb-img/100HS.jpg">
-                        <img class="d-block w-100" src="img/pcb-img/100HS.jpg"
-
-                          alt="First slide"> </a> </div>
-                    <div class="carousel-item"> <a class="gallery_img" href="img/pcb-img/100HS.jpg">
-                        <img class="d-block w-100" src="img/pcb-img/100HS.jpg"
-
-                          alt="Second slide"> </a> </div>
-                    <div class="carousel-item"> <a class="gallery_img" href="img/pcb-img/100HS.jpg">
-                        <img class="d-block w-100" src="img/pcb-img/100HS.jpg"
-
-                          alt="Third slide"> </a> </div>
-                    <div class="carousel-item"> <a class="gallery_img" href="img/pcb-img/100HS.jpg">
-                        <img class="d-block w-100" src="img/pcb-img/100HS.jpg"
-
-                          alt="Fourth slide"> </a> </div>
+                      data-delay="1s" data-duration="500ms">Check Collection</a>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col-12 col-md-6">
-              <div class="single_product_desc">
-                <h4 class="title"><a href="#">100% PCB Hot-Swap</a></h4>
-                <h4 class="price">$85.99</h4>
-                <p class="available">Available: <span class="text-muted">In
-                    Stock</span></p>
-                <div class="single_product_ratings mb-15"> <i class="fa fa-star"
+          </div>
+          <!-- Single Slide Start -->
+          <div class="single_slide height-800 bg-img background-overlay" style="background-image: url(img/bg-img/bg-2.jpg);">
+            <div class="container h-100">
+              <div class="row h-100 align-items-center">
+                <div class="col-12">
+                  <div class="welcome_slide_text">
+                    <h6 data-animation="fadeInDown" data-delay="0" data-duration="500ms">*
+                      Free shipping on orders over $100</h6>
+                    <h2 data-animation="bounceInDown" data-delay="500ms" data-duration="500ms">MX
+                      Cherry Keycaps</h2>
+                    <a href="cherry_keycaps.html" class="btn karl-btn" data-animation="fadeInRightBig"
 
-                    aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star"
-
-                    aria-hidden="true"></i> <i class="fa fa-star-o" aria-hidden="true"></i>
-                </div>
-                <!-- Add to Cart Form -->
-                <form class="cart clearfix mb-50 d-flex" method="post">
-                  <div class="quantity"> <span class="qty-minus" onclick="var effect = document.getElementById('qty'); var qty = effect.value; if( !isNaN( qty ) &amp;&amp; qty > 1 ) effect.value--;return false;"><i
-
-                        class="fa fa-minus" aria-hidden="true"></i></span> <input
-
-                      class="qty-text" id="qty" step="1" min="1" max="12" name="quantity"
-
-                      value="1" type="number"> <span class="qty-plus" onclick="var effect = document.getElementById('qty'); var qty = effect.value; if( !isNaN( qty )) effect.value++;return false;"><i
-
-                        class="fa fa-plus" aria-hidden="true"></i></span> </div>
-                  <button type="submit" name="addtocart" value="5" class="btn cart-submit d-block">Add
-                    to cart</button> </form>
-                <div id="accordion" role="tablist">
-                  <div class="card">
-                    <div class="card-header" role="tab" id="headingOne">
-                      <h6 class="mb-0"> <a data-toggle="collapse" href="#collapseOne"
-
-                          aria-expanded="true" aria-controls="collapseOne">Information</a>
-                      </h6>
-                    </div>
-                    <div id="collapseOne" class="collapse show" role="tabpanel"
-
-                      aria-labelledby="headingOne" data-parent="#accordion">
-                      <div class="card-body">
-                        <p>100% Hot Swapable PCB</p>
-                        <p>USB-C Connection</p>
-                        <p>100% Layout Compatible</p>
-                        <p>Compatible with most 60% Cases</p>
-                        <p>QMK Firmware</p>
-                      </div>
-                    </div>
+                      data-delay="1s" data-duration="500ms">Check Collection</a>
                   </div>
                 </div>
               </div>
@@ -239,7 +151,26 @@
           </div>
         </div>
       </section>
-      <!-- <<<<<<<<<<<<<<<<<<<< Single Product Details Area End >>>>>>>>>>>>>>>>>>>>>>>>> -->
+      <!-- ****** Welcome Slides Area End ****** -->
+      <!-- ****** Top Catagory Area Start ****** -->
+      <section class="top_catagory_area d-md-flex clearfix">
+        <!-- Single Catagory -->
+        <div class="single_catagory_area d-flex align-items-center bg-img" style="background-image: url(img/bg-img/bg-5.jpg);">
+          <div class="catagory-content">
+            <h6>On Cases</h6>
+            <h2>Sale 30%</h2>
+            <a href="case-shop.html" class="btn karl-btn">SHOP NOW</a> </div>
+        </div>
+        <!-- Single Catagory -->
+        <div class="single_catagory_area d-flex align-items-center bg-img" style="background-image: url(img/bg-img/bg-3.jpg);">
+          <div class="catagory-content">
+            <h6>High quality</h6>
+            <h2>Premium<br>
+              PCBs</h2>
+            <a href="pcb.html" class="btn karl-btn">SHOP NOW</a> </div>
+        </div>
+      </section>
+      <!-- ****** Top Catagory Area End ****** -->
       <!-- ****** Quick View Modal Area Start ****** -->
       <div class="modal fade" id="quickview" tabindex="-1" role="dialog" aria-labelledby="quickview"
 
@@ -278,7 +209,7 @@
                         <div class="quantity"> <span class="qty-minus" onclick="var effect = document.getElementById('qty'); var qty = effect.value; if( !isNaN( qty ) &amp;&amp; qty > 1 ) effect.value--;return false;"><i
 
                               class="fa fa-minus" aria-hidden="true"></i></span>
-                          <input class="qty-text" id="qty2" step="1" min="1" max="12"
+                          <input class="qty-text" id="qty" step="1" min="1" max="12"
 
                             name="quantity" value="1" type="number"> <span class="qty-plus"
 
@@ -318,75 +249,70 @@
         </div>
       </div>
       <!-- ****** Quick View Modal Area End ****** -->
-      <section class="you_may_like_area clearfix">
+      <!-- ****** Popular Brands Area Start ****** -->
+      <section class="karl-testimonials-area section_padding_100">
         <div class="container">
           <div class="row">
             <div class="col-12">
               <div class="section_heading text-center">
-                <h2>related Products</h2>
+                <h2>Testimonials</h2>
               </div>
             </div>
           </div>
-          <div class="row">
-            <div class="col-12">
-              <div class="you_make_like_slider owl-carousel">
-                <!--Will need to change this once more products are added-->
-                <!-- Single gallery Item -->
-                <div class="single_gallery_item">
-                  <!-- Product Image -->
-                  <div class="product-img"> <img src="img/product-img/cases/100%/black-aluminum.jpg"
+          <div class="row justify-content-center">
+            <div class="col-12 col-md-8">
+              <div class="karl-testimonials-slides owl-carousel">
+                <!-- Single Testimonial Area -->
+                <div class="single-testimonial-area text-center"> <span class="quote">"</span>
+                  <h6>Nunc pulvinar molestie sem id blandit. Nunc venenatis
+                    interdum mollis. Aliquam finibus nulla quam, a iaculis justo
+                    finibus non. Suspendisse in fermentum nunc.Nunc pulvinar
+                    molestie sem id blandit. Nunc venenatis interdum mollis. </h6>
+                  <div class="testimonial-info d-flex align-items-center justify-content-center">
+                    <div class="tes-thumbnail"> <img src="img/bg-img/tes-1.jpg"
 
-                      alt="">
-                    <div class="product-quicview"> <a href="#" data-toggle="modal"
-
-                        data-target="#quickview"><i class="ti-plus"></i></a> </div>
+                        alt=""> </div>
+                    <div class="testi-data">
+                      <p>Michelle Williams</p>
+                      <span>Client, Los Angeles</span> </div>
                   </div>
-                  <!-- Product Description -->
-                  <div class="product-description">
-                    <h4 class="product-price">$129.99</h4>
-                    <p>100% Black Aluminum Case</p>
-                    <!-- Add to Cart --> <a href="#" class="add-to-cart-btn">ADD
-                      TO CART</a> </div>
                 </div>
-                <!-- Single gallery Item -->
-                <div class="single_gallery_item">
-                  <!-- Product Image -->
-                  <div class="product-img"> <img src="img/product-img/cases/100%/silver-aluminum.jpg"
+                <!-- Single Testimonial Area -->
+                <div class="single-testimonial-area text-center"> <span class="quote">"</span>
+                  <h6>Nunc pulvinar molestie sem id blandit. Nunc venenatis
+                    interdum mollis. Aliquam finibus nulla quam, a iaculis justo
+                    finibus non. Suspendisse in fermentum nunc.Nunc pulvinar
+                    molestie sem id blandit. Nunc venenatis interdum mollis. </h6>
+                  <div class="testimonial-info d-flex align-items-center justify-content-center">
+                    <div class="tes-thumbnail"> <img src="img/bg-img/tes-1.jpg"
 
-                      alt="">
-                    <div class="product-quicview"> <a href="#" data-toggle="modal"
-
-                        data-target="#quickview"><i class="ti-plus"></i></a> </div>
+                        alt=""> </div>
+                    <div class="testi-data">
+                      <p>Michelle Williams</p>
+                      <span>Client, Los Angeles</span> </div>
                   </div>
-                  <!-- Product Description -->
-                  <div class="product-description">
-                    <h4 class="product-price">$129.99</h4>
-                    <p>100% Silver Aluminum Case</p>
-                    <!-- Add to Cart --> <a href="#" class="add-to-cart-btn">ADD
-                      TO CART</a> </div>
                 </div>
-                <!-- Single gallery Item -->
-                <div class="single_gallery_item">
-                  <!-- Product Image -->
-                  <div class="product-img"> <img src="img/product-img/cases/100%/blue-aluminum.jpg"
+                <!-- Single Testimonial Area -->
+                <div class="single-testimonial-area text-center"> <span class="quote">"</span>
+                  <h6>Nunc pulvinar molestie sem id blandit. Nunc venenatis
+                    interdum mollis. Aliquam finibus nulla quam, a iaculis justo
+                    finibus non. Suspendisse in fermentum nunc.Nunc pulvinar
+                    molestie sem id blandit. Nunc venenatis interdum mollis. </h6>
+                  <div class="testimonial-info d-flex align-items-center justify-content-center">
+                    <div class="tes-thumbnail"> <img src="img/bg-img/tes-1.jpg"
 
-                      alt="">
-                    <div class="product-quicview"> <a href="#" data-toggle="modal"
-
-                        data-target="#quickview"><i class="ti-plus"></i></a> </div>
+                        alt=""> </div>
+                    <div class="testi-data">
+                      <p>Michelle Williams</p>
+                      <span>Client, Los Angeles</span> </div>
                   </div>
-                  <!-- Product Description -->
-                  <div class="product-description">
-                    <h4 class="product-price">$129.99</h4>
-                    <p>100% Blue Aluminum Case</p>
-                    <!-- Add to Cart --> <a href="#" class="add-to-cart-btn">ADD
-                      TO CART</a> </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
+      <!-- ****** Popular Brands Area End ****** -->
       <!-- ****** Footer Area Start ****** -->
       <footer class="footer_area">
         <div class="container">
@@ -411,7 +337,7 @@
             <div class="col-12 col-sm-6 col-md-3 col-lg-2">
               <div class="single_footer_area">
                 <ul class="footer_widget_menu">
-                  <li><a href="#">About</a></li>
+                  <li><a href="map.php">Site Map</a></li>
                   <li><a href="#">Blog</a></li>
                   <li><a href="#">Faq</a></li>
                   <li><a href="#">Returns</a></li>
@@ -437,11 +363,10 @@
                   <h6>Subscribe to our newsletter</h6>
                 </div>
                 <div class="subscribtion_form">
-                  <form action="#" method="post"> <input name="mail" class="mail"
-
-                      placeholder="Your email here" type="email"> <button type="submit"
-
-                      class="submit">Subscribe</button> </form>
+                  <form action="#" method="post"> 
+                    <input name="email" class="mail" placeholder="Your email here" type="email">
+                    <button type="submit" name="email-submit" class="submit">Subscribe</button> 
+                  </form>
                 </div>
               </div>
             </div>
@@ -477,5 +402,6 @@
     <script src="js/plugins.js"></script>
     <!-- Active js -->
     <script src="js/active.js"></script>
+    
   </body>
 </html>
