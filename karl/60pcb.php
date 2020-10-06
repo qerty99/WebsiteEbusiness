@@ -28,11 +28,11 @@
         <div class="row">
           <div class="col-12">
             <ol class="breadcrumb d-flex align-items-center">
-              <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-              <li class="breadcrumb-item"><a href="pcb.html">PCB</a></li>
+              <li class="breadcrumb-item"><a href="index.php">Home</a></li>
+              <li class="breadcrumb-item"><a href="pcb.php">PCB</a></li>
               <li class="breadcrumb-item active">60% PCB</li>
             </ol>
-            <!-- btn --> <a href="pcb.html" class="backToHome d-block"> Back to
+            <!-- btn --> <a href="pcb.php" class="backToHome d-block"> Back to
               Category</a> </div>
         </div>
       </div>
@@ -161,7 +161,7 @@
                         elit. Mollitia expedita quibusdam aspernatur, sapiente
                         consectetur accusantium perspiciatis praesentium
                         eligendi, in fugiat?</p>
-                      <a href="60pcb.html">View Full Product Details</a> </div>
+                      <a href="60pcb.php">View Full Product Details</a> </div>
                     <!-- Add to Cart Form -->
                     <form class="cart" method="post">
                       <div class="quantity"> <span class="qty-minus" onclick="var effect = document.getElementById('qty'); var qty = effect.value; if( !isNaN( qty ) &amp;&amp; qty > 1 ) effect.value--;return false;"><i

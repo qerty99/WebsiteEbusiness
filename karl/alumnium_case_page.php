@@ -35,11 +35,11 @@
                     <div class="col-12">
                         <ol class="breadcrumb d-flex align-items-center">
                             <li class="breadcrumb-item"><a href="#">Home</a></li>
-                            <li class="breadcrumb-item"><a href="60cases.html">60% Cases</a></li>
+                            <li class="breadcrumb-item"><a href="60cases.php">60% Cases</a></li>
                             <li class="breadcrumb-item active">60% Alumium Case</li>
                         </ol>
                         <!-- btn -->
-                        <a href="cases-shop.html" class="backToHome d-block"><i class="fa fa-angle-double-left"></i> Back to Cases</a>
+                        <a href="cases-shop.php" class="backToHome d-block"><i class="fa fa-angle-double-left"></i> Back to Cases</a>
                     </div>
                 </div>
             </div>
@@ -255,7 +255,7 @@
                                     <h4 class="product-price">$49.99</h4>
                                     <p>60% Wooden Case</p>
                                     <!-- Add to Cart -->
-                                    <a href="60wooden.html" class="add-to-cart-btn">View Details</a>
+                                    <a href="60wooden.php" class="add-to-cart-btn">View Details</a>
                                 </div>
                             </div>
 
@@ -273,7 +273,7 @@
                                     <h4 class="product-price">$129.99</h4>
                                     <p>80% Aluminum Case</p>
                                     <!-- Add to Cart -->
-                                    <a href="80aluminum_case.html" class="add-to-cart-btn">View Details</a>
+                                    <a href="80aluminum_case.php" class="add-to-cart-btn">View Details</a>
                                 </div>
                             </div>
 
@@ -291,7 +291,7 @@
                                     <h4 class="product-price">$39.00</h4>
                                     <p>60% Frosted Acrylic Case</p>
                                     <!-- Add to Cart -->
-                                    <a href="60acrylic_case.html" class="add-to-cart-btn">View Details</a>
+                                    <a href="60acrylic_case.php" class="add-to-cart-btn">View Details</a>
                                 </div>
                             </div>
 
@@ -309,7 +309,7 @@
                                     <h4 class="product-price">$19.99</h4>
                                     <p>60% Plastic Cases</p>
                                     <!-- Add to Cart -->
-                                    <a href="60plastic_case.html" class="add-to-cart-btn">View Details</a>
+                                    <a href="60plastic_case.php" class="add-to-cart-btn">View Details</a>
                                 </div>
                             </div>
                         </div>
