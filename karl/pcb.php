@@ -21,110 +21,6 @@
   </head>
   <body>
   <?php include('menu.php') ?>
-    <!-- ****** Header Area Start ****** -->
-    <header class="header_area bg-img background-overlay-white" style="background-image: url(img/bg-img/bg-3.jpg);">
-      <!-- Top Header Area Start -->
-      <div class="top_header_area">
-        <div class="container h-100">
-          <div class="row h-100 align-items-center justify-content-end">
-            <div class="col-12 col-lg-7">
-              <div class="top_single_area d-flex align-items-center">
-                <!-- Logo Area --><a href="#"><img src="img/core-img/logo.png" alt=""></a>
-                <div class="top_logo"> <a href="#"></a> </div>
-                <!-- Cart & Menu Area -->
-                <div class="header-cart-menu d-flex align-items-center ml-auto">
-                  <!-- Cart Area -->
-                  <div class="cart"> <a href="#" id="header-cart-btn" target="_blank">Your
-                      Shopping Cart $0.00 </a>
-                    <!-- Cart List Area Start -->
-                    <ul class="cart-list">
-                      <li class="total"> <span class="pull-right">Total: $0.00</span>
-                        <a href="cart.html" class="btn btn-sm btn-cart">Cart</a>
-                        <a href="checkout-1.html" class="btn btn-sm btn-checkout">Checkout</a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Top Header Area End -->
-      <div class="main_header_area">
-        <div class="container h-100">
-          <div class="row h-100">
-            <div class="col-12 d-md-flex justify-content-between">
-              <!-- Header Social Area -->
-              <div class="header-social-area"> <a href="#"><span class="karl-level">Share</span>
-                  <i class="fa fa-pinterest" aria-hidden="true"></i></a> <a href="#"><i
-
-                    class="fa fa-facebook" aria-hidden="true"></i></a> <a href="#"><i
-
-                    class="fa fa-twitter" aria-hidden="true"></i></a> <a href="#"><i
-
-                    class="fa fa-linkedin" aria-hidden="true"></i></a> </div>
-              <!-- Menu Area -->
-              <div class="main-menu-area">
-                <nav class="navbar navbar-expand-lg align-items-start"> <button
-
-                    class="navbar-toggler" type="button" data-toggle="collapse"
-
-                    data-target="#karl-navbar" aria-controls="karl-navbar" aria-expanded="false"
-
-                    aria-label="Toggle navigation"><span class="navbar-toggler-icon"><i
-
-                        class="ti-menu"></i></span></button>
-                  <div class="collapse navbar-collapse align-items-start collapse"
-
-                    id="karl-navbar">
-                    <ul class="navbar-nav animated" id="nav">
-                      <li class="nav-item active"><a class="nav-link" href="index.php">Home</a></li>
-                      <li class="nav-item"><a class="nav-link" href="aboutus.html">About
-                          Us</a></li>
-                      <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle"
-
-                          href="#" id="karlDropdown" role="button" data-toggle="dropdown"
-
-                          aria-haspopup="true" aria-expanded="false"><span class="karl-level">Sale</span>Store</a>
-                        <div class="dropdown-menu" aria-labelledby="karlDropdown">
-                          <a class="dropdown-item" href="cases-shop.html">Cases</a>
-                          <a class="dropdown-item" href="keycaps.html">Keycaps</a>
-                          <a class="dropdown-item" href="pcb.html">PCBs</a> </div>
-                      </li>
-                      <li class="nav-item"><a class="nav-link" href="custom.html">Custom
-                          Builds</a></li>
-                      <li class="nav-item"><a class="nav-link" href="contact_us.html">Contact
-                          Us</a></li>
-                    </ul>
-                  </div>
-                </nav>
-              </div>
-              <div class="help-line"> <a href="tel:+346573556778"><i class="ti-headphone-alt"></i>
-                  +34 657 3556 778</a> </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </header>
-    <!-- ****** Header Area End ****** -->
-    <section class="top-discount-area d-md-flex align-items-center">
-      <!-- Single Discount Area -->
-      <div class="single-discount-area">
-        <h5>Free Shipping &amp; Returns</h5>
-        <h6><a href="#">BUY NOW</a></h6>
-      </div>
-      <!-- Single Discount Area -->
-      <div class="single-discount-area">
-        <h5>20% Discount off selected products</h5>
-        <h6>USE CODE: Colorlib</h6>
-      </div>
-      <!-- Single Discount Area -->
-      <div class="single-discount-area">
-        <h5>20% Discount for students</h5>
-        <h6>USE CODE: Colorlib</h6>
-      </div>
-    </section>
     <!-- ****** Quick View Modal Area Start ****** -->
     <!-- ****** Quick View Modal Area End ****** -->
     <section class="shop_grid_area section_padding_100">
@@ -188,7 +84,7 @@
                   <div class="product-description">
                     <h4 class="product-price">$59.90</h4>
                     <p>60% PCB</p>
-                    <!-- Add to Cart --> <a href="60pcb.html" class="add-to-cart-btn">View
+                    <!-- Add to Cart --> <a href="60pcb.php" class="add-to-cart-btn">View
                       Details</a> </div>
                 </div>
                 <!-- Single gallery Item -->
@@ -200,7 +96,7 @@
 
                       style="width: 229px; height: 171px;">
                     <div class="product-quicview" style="top: 0px; left: 0px; width: 229px; height: 172px;">
-                      <a href="60pcb.html" data-toggle="modal" data-target="#quickview"><i
+                      <a href="60pcb.php" data-toggle="modal" data-target="#quickview"><i
 
                           class="ti-plus"></i></a> </div>
                   </div>
@@ -208,7 +104,7 @@
                   <div class="product-description">
                     <h4 class="product-price">$69.99</h4>
                     <p>80% PCB</p>
-                    <!-- Add to Cart --> <a href="80pcb.html" class="add-to-cart-btn">View
+                    <!-- Add to Cart --> <a href="80pcb.php" class="add-to-cart-btn">View
                       Details</a> </div>
                 </div>
                 <!-- Single gallery Item -->
@@ -220,7 +116,7 @@
 
                       style="width: 163px; height: 172px;">
                     <div class="product-quicview" style="top: 0px; left: 0px; width: 169px; height: 183px;">
-                      <a href="80pcb.html" data-toggle="modal" data-target="#quickview"><i
+                      <a href="80pcb.php" data-toggle="modal" data-target="#quickview"><i
 
                           class="ti-plus"></i></a> </div>
                   </div>
@@ -228,7 +124,7 @@
                   <div class="product-description">
                     <h4 class="product-price">$79.99</h4>
                     <p>100% PCB</p>
-                    <!-- Add to Cart --> <a href="100pcb.html" class="add-to-cart-btn">View
+                    <!-- Add to Cart --> <a href="100pcb.php" class="add-to-cart-btn">View
                       Details</a> </div>
                 </div>
                 <!-- Single gallery Item -->
@@ -248,7 +144,7 @@
                   <div class="product-description">
                     <h4 class="product-price">$65.99</h4>
                     <p>60% PCB Hot-Swap</p>
-                    <!-- Add to Cart --> <a href="60HS.html" class="add-to-cart-btn">View
+                    <!-- Add to Cart --> <a href="60HS.php" class="add-to-cart-btn">View
                       Details</a> </div>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4 single_gallery_item wow fadeInUpBig"
@@ -267,7 +163,7 @@
                   <div class="product-description">
                     <h4 class="product-price">$75.99</h4>
                     <p>80% PCB Hot-Swap</p>
-                    <!-- Add to Cart --> <a href="80HS.html" class="add-to-cart-btn">View
+                    <!-- Add to Cart --> <a href="80HS.php" class="add-to-cart-btn">View
                       Details</a> </div>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4 single_gallery_item wow fadeInUpBig"
@@ -286,7 +182,7 @@
                   <div class="product-description">
                     <h4 class="product-price">$85.99</h4>
                     <p>100% PCB Hot-Swap</p>
-                    <!-- Add to Cart --> <a href="100HS.html" class="add-to-cart-btn">View
+                    <!-- Add to Cart --> <a href="100HS.php" class="add-to-cart-btn">View
                       Details</a> </div>
                 </div>
               </div>

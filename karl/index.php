@@ -35,7 +35,7 @@
                       Free shipping on orders over $100</h6>
                     <h2 data-animation="fadeInUp" data-delay="500ms" data-duration="500ms">Custom
                       Keyboard Service</h2>
-                    <a href="custom.html" class="btn karl-btn" data-animation="fadeInUp" data-delay="1s"
+                    <a href="custom.php" class="btn karl-btn" data-animation="fadeInUp" data-delay="1s"
 
                       data-delay="1s" data-duration="500ms">Shop Now</a> </div>
                 </div>
@@ -52,7 +52,7 @@
                       Free shipping on orders over $100</h6>
                     <h2 data-animation="fadeInUp" data-delay="500ms" data-duration="500ms">High
                       Quality Cases</h2>
-                    <a href="cases-shop.html" class="btn karl-btn" data-animation="fadeInLeftBig"
+                    <a href="cases-shop.php" class="btn karl-btn" data-animation="fadeInLeftBig"
 
                       data-delay="1s" data-duration="500ms">Check Collection</a>
                   </div>
@@ -70,7 +70,7 @@
                       Free shipping on orders over $100</h6>
                     <h2 data-animation="bounceInDown" data-delay="500ms" data-duration="500ms">MX
                       Cherry Keycaps</h2>
-                    <a href="cherry_keycaps.html" class="btn karl-btn" data-animation="fadeInRightBig"
+                    <a href="cherry_keycaps.php" class="btn karl-btn" data-animation="fadeInRightBig"
 
                       data-delay="1s" data-duration="500ms">Check Collection</a>
                   </div>
@@ -88,7 +88,7 @@
           <div class="catagory-content">
             <h6>On Cases</h6>
             <h2>Sale 30%</h2>
-            <a href="case-shop.html" class="btn karl-btn">SHOP NOW</a> </div>
+            <a href="case-shop.ph" class="btn karl-btn">SHOP NOW</a> </div>
         </div>
         <!-- Single Catagory -->
         <div class="single_catagory_area d-flex align-items-center bg-img" style="background-image: url(img/bg-img/bg-3.jpg);">
@@ -96,7 +96,7 @@
             <h6>High quality</h6>
             <h2>Premium<br>
               PCBs</h2>
-            <a href="pcb.html" class="btn karl-btn">SHOP NOW</a> </div>
+            <a href="pcb.php" class="btn karl-btn">SHOP NOW</a> </div>
         </div>
       </section>
       <!-- ****** Top Catagory Area End ****** -->

@@ -27,11 +27,11 @@
           <div class="row">
             <div class="col-12">
               <ol class="breadcrumb d-flex align-items-center">
-                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                <li class="breadcrumb-item"><a href="pcb.html">PCB</a></li>
+                <li class="breadcrumb-item"><a href="index.php">Home</a></li>
+                <li class="breadcrumb-item"><a href="pcb.php">PCB</a></li>
                 <li class="breadcrumb-item active">100% Aluminum Case</li>
               </ol>
-              <!-- btn --> <a href="pcb.html" class="backToHome d-block"> Back
+              <!-- btn --> <a href="pcb.php" class="backToHome d-block"> Back
                 to Category</a> </div>
           </div>
         </div>
