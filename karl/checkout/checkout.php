@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<?php include('login.php') ?>
 <html lang="en">
 
 <head>
@@ -47,8 +47,8 @@
                         <a href="#" id="header-cart-btn" target="_blank">Your Shopping Cart(<span class="simpleCart_quantity"></span>) <span class="simpleCart_total"></span></a>
                         <!-- Cart List Area Start -->
                         <ul class="cart-list">
-                            <li class="total"> <div class="pull-right"><span class="simpleCart_total"></span></div> <a href="cart.html" class="btn btn-sm btn-cart">Cart</a>
-                                <a href="checkout-1.html" class="btn btn-sm btn-checkout">Checkout</a>
+                            <li class="total"> <div class="pull-right"><span class="simpleCart_total"></span></div> <a href="cart.php" class="btn btn-sm btn-cart">Cart</a>
+                                <a href="checkout.php" class="btn btn-sm btn-checkout">Checkout</a>
                                 
                             </li>
                         </ul>
@@ -88,8 +88,8 @@
 
                       id="karl-navbar">
                       <ul class="navbar-nav animated" id="nav">
-                        <li class="nav-item active"><a class="nav-link" href="../index.html">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="../aboutus.html">About
+                        <li class="nav-item active"><a class="nav-link" href="../index.php">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../aboutus.php">About
                             Us</a></li>
                         <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle"
 
@@ -97,13 +97,13 @@
 
                             aria-haspopup="true" aria-expanded="false"><span class="karl-level">Sale</span>Store</a>
                           <div class="dropdown-menu" aria-labelledby="karlDropdown">
-                            <a class="dropdown-item" href="../cases-shop.html">Cases</a>
-                            <a class="dropdown-item" href="../keycaps.html">Keycaps</a>
-                            <a class="dropdown-item" href="../pcb.html">PCBs</a> </div>
+                            <a class="dropdown-item" href="../cases-shop.php">Cases</a>
+                            <a class="dropdown-item" href="../keycaps.php">Keycaps</a>
+                            <a class="dropdown-item" href="../pcb.php">PCBs</a> </div>
                         </li>
-                        <li class="nav-item"><a class="nav-link" href="../custom.html">Custom
+                        <li class="nav-item"><a class="nav-link" href="../custom.php">Custom
                             Builds</a></li>
-                        <li class="nav-item"><a class="nav-link" href="../contact_us.html">Contact
+                        <li class="nav-item"><a class="nav-link" href="../contact_us.php">Contact
                             Us</a></li>
                       </ul>
                     </div>
@@ -295,7 +295,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
                     <div class="col-12 col-sm-6 col-md-3 col-lg-2">
                         <div class="single_footer_area">
                             <ul class="footer_widget_menu">
-                                <li><a href="#">About</a></li>
+                                <li><a href="map.php">Site Map</a></li>
                                 <li><a href="#">Blog</a></li>
                                 <li><a href="#">Faq</a></li>
                                 <li><a href="#">Returns</a></li>
@@ -362,5 +362,90 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <script src="js/active.js"></script>
 
 </body>
+        <!-- ****** Footer Area Start ****** -->
+        <footer class="footer_area">
+            <div class="container">
+                <div class="row">
+                    <!-- Single Footer Area Start -->
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="single_footer_area">
+                            <div class="footer-logo">
+                                <img src="img/core-img/logo.png" alt="">
+                            </div>
+                            <div class="copywrite_text d-flex align-items-center">
+                                <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single Footer Area Start -->
+                    <div class="col-12 col-sm-6 col-md-3 col-lg-2">
+                        <div class="single_footer_area">
+                            <ul class="footer_widget_menu">
+                                <li><a href="map.php">Site Map</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Faq</a></li>
+                                <li><a href="#">Returns</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Single Footer Area Start -->
+                    <div class="col-12 col-sm-6 col-md-3 col-lg-2">
+                        <div class="single_footer_area">
+                            <ul class="footer_widget_menu">
+                                <li><a href="#">My Account</a></li>
+                                <li><a href="#">Shipping</a></li>
+                                <li><a href="#">Our Policies</a></li>
+                                <li><a href="#">Afiliates</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Single Footer Area Start -->
+                    <div class="col-12 col-lg-5">
+                        <div class="single_footer_area">
+                            <div class="footer_heading mb-30">
+                                <h6>Subscribe to our newsletter</h6>
+                            </div>
+                            <div class="subscribtion_form">
+                                <form action="#" method="post">
+                                    <input type="email" name="mail" class="mail" placeholder="Your email here">
+                                    <button type="submit" class="submit">Subscribe</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="line"></div>
 
+                <!-- Footer Bottom Area Start -->
+                <div class="footer_bottom_area">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="footer_social_area text-center">
+                                <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- ****** Footer Area End ****** -->
+    </div>
+    <!-- /.wrapper end -->
+
+    <!-- jQuery (Necessary for All JavaScript Plugins) -->
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Plugins js -->
+    <script src="js/plugins.js"></script>
+    <!-- Active js -->
+    <script src="js/active.js"></script>
 </html>
