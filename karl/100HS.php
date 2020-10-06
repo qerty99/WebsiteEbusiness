@@ -99,7 +99,7 @@
               <ol class="breadcrumb d-flex align-items-center">
                 <li class="breadcrumb-item"><a href="index.html">Home</a></li>
                 <li class="breadcrumb-item"><a href="pcb.html">PCB</a></li>
-                <li class="breadcrumb-item active">100% Aluminum Case</li>
+                <li class="breadcrumb-item active">100 Aluminum Case</li>
               </ol>
               <!-- btn --> <a href="pcb.html" class="backToHome d-block"> Back
                 to Category</a> </div>
@@ -155,7 +155,7 @@
             </div>
             <div class="col-12 col-md-6">
               <div class="single_product_desc">
-                <h4 class="title"><a href="#">100% PCB Hot-Swap</a></h4>
+                <h4 class="title"><a href="#">100 PCB Hot-Swap</a></h4>
                 <h4 class="price">$85.99</h4>
                 <p class="available">Available: <span class="text-muted">In
                     Stock</span></p>
@@ -300,7 +300,7 @@
                 <!-- Single gallery Item -->
                 <div class="single_gallery_item">
                   <!-- Product Image -->
-                  <div class="product-img"> <img src="img/product-img/cases/100%/black-aluminum.jpg"
+                  <div class="product-img"> <img src="img/product-img/cases/100/black-aluminum.jpg"
 
                       alt="">
                     <div class="product-quicview"> <a href="#" data-toggle="modal"
@@ -317,7 +317,7 @@
                 <!-- Single gallery Item -->
                 <div class="single_gallery_item">
                   <!-- Product Image -->
-                  <div class="product-img"> <img src="img/product-img/cases/100%/silver-aluminum.jpg"
+                  <div class="product-img"> <img src="img/product-img/cases/100/silver-aluminum.jpg"
 
                       alt="">
                     <div class="product-quicview"> <a href="#" data-toggle="modal"
@@ -334,7 +334,7 @@
                 <!-- Single gallery Item -->
                 <div class="single_gallery_item">
                   <!-- Product Image -->
-                  <div class="product-img"> <img src="img/product-img/cases/100%/blue-aluminum.jpg"
+                  <div class="product-img"> <img src="img/product-img/cases/100/blue-aluminum.jpg"
 
                       alt="">
                     <div class="product-quicview"> <a href="#" data-toggle="modal"

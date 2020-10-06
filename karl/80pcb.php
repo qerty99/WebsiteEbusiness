@@ -296,7 +296,7 @@
                 <!-- Single gallery Item -->
                 <div class="single_gallery_item">
                   <!-- Product Image -->
-                  <div class="product-img"> <img src="img/product-img/cases/80%/black-aluminum.jpg"
+                  <div class="product-img"> <img src="img/product-img/cases/8/black-aluminum.jpg"
 
                       alt="">
                     <div class="product-quicview"> <a href="#" data-toggle="modal"
@@ -313,7 +313,7 @@
                 <!-- Single gallery Item -->
                 <div class="single_gallery_item">
                   <!-- Product Image -->
-                  <div class="product-img"> <img src="img/product-img/cases/80%/silver-alumium.jpg"
+                  <div class="product-img"> <img src="img/product-img/cases/80/silver-alumium.jpg"
 
                       alt="">
                     <div class="product-quicview"> <a href="#" data-toggle="modal"
@@ -330,7 +330,7 @@
                 <!-- Single gallery Item -->
                 <div class="single_gallery_item">
                   <!-- Product Image -->
-                  <div class="product-img"> <img src="img/product-img/cases/80%/blue-aluminum.jpg"
+                  <div class="product-img"> <img src="img/product-img/cases/80/blue-aluminum.jpg"
 
                       alt="">
                     <div class="product-quicview"> <a href="#" data-toggle="modal"

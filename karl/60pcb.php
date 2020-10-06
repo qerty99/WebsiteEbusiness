@@ -303,7 +303,7 @@
               <!-- Single gallery Item -->
               <div class="single_gallery_item">
                 <!-- Product Image -->
-                <div class="product-img"> <img src="img/product-img/cases/60%/black-plastic.jpg"
+                <div class="product-img"> <img src="img/product-img/cases/60/black-plastic.jpg"
 
                     alt="">
                   <div class="product-quicview"> <a href="#" data-toggle="modal"
@@ -320,7 +320,7 @@
               <!-- Single gallery Item -->
               <div class="single_gallery_item">
                 <!-- Product Image -->
-                <div class="product-img"> <img src="img/product-img/cases/60%/green-plastic.jpg"
+                <div class="product-img"> <img src="img/product-img/cases/60/green-plastic.jpg"
 
                     alt="">
                   <div class="product-quicview"> <a href="#" data-toggle="modal"
@@ -337,7 +337,7 @@
               <!-- Single gallery Item -->
               <div class="single_gallery_item">
                 <!-- Product Image -->
-                <div class="product-img"> <img src="img/product-img/cases/60%/pink-plastic.jpg"
+                <div class="product-img"> <img src="img/product-img/cases/60/pink-plastic.jpg"
 
                     alt="">
                   <div class="product-quicview"> <a href="#" data-toggle="modal"
