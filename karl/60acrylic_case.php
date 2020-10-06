@@ -1,4 +1,4 @@
-<?php include('login.php'); ?>
+<?php include('login.php') ?>
 <html lang="en">
 
 <head>
@@ -24,83 +24,8 @@
 </head>
 
 <body>
-    <div id="wrapper">
 
-        <!-- ****** Header Area Start ****** -->
-        <header class="header_area bg-img background-overlay-white" style="background-image: url(img/bg-img/bg-1.jpg);">
-            <!-- Top Header Area Start -->
-            <div class="top_header_area">
-                <div class="container h-100">
-                    <div class="row h-100 align-items-center justify-content-end">
-
-                        <div class="col-12 col-lg-7">
-                            <div class="top_single_area d-flex align-items-center">
-                                <!-- Logo Area -->
-                                <div class="top_logo">
-                                    <a href="#"><img src="img/core-img/logo.png" alt=""></a>
-                                </div>
-                                <!-- Cart & Menu Area -->
-                <div class="header-cart-menu d-flex align-items-center ml-auto">
-                    <!-- Cart Area -->
-                    <div class="cart"> <a href="#" id="header-cart-btn" target="_blank">Your
-                        Shopping Cart $0.00 </a>
-                      <!-- Cart List Area Start -->
-                      <ul class="cart-list">
-                        <li class="total"> <span class="pull-right">Total: $0.00</span>
-                          <a href="cart.html" class="btn btn-sm btn-cart">Cart</a>
-                          <a href="checkout-1.html" class="btn btn-sm btn-checkout">Checkout</a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-            <!-- Top Header Area End -->
-            <div class="main_header_area">
-                <div class="container h-100">
-                    <div class="row h-100">
-                        <div class="col-12 d-md-flex justify-content-between">
-                            <!-- Header Social Area -->
-                            <div class="header-social-area">
-                                <a href="#"><span class="karl-level">Share</span> <i class="fa fa-pinterest" aria-hidden="true"></i></a>
-                                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                            </div>
-                            <!-- Menu Area -->
-                            <?php include('menu.php'); ?>
-                            <!-- Help Line -->
-                            <div class="help-line">
-                                <a href="tel:+346573556778"><i class="ti-headphone-alt"></i> +34 657 3556 778</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </header>
-        <!-- ****** Header Area End ****** -->
-
-        <section class="top-discount-area d-md-flex align-items-center">
-            <!-- Single Discount Area -->
-            <div class="single-discount-area">
-                <h5>Free Shipping &amp; Returns</h5>
-                <h6><a href="#">BUY NOW</a></h6>
-            </div>
-            <!-- Single Discount Area -->
-            <div class="single-discount-area">
-                <h5>20% Discount off selected products</h5>
-                <h6>USE CODE: Colorlib</h6>
-            </div>
-            <!-- Single Discount Area -->
-            <div class="single-discount-area">
-                <h5>20% Discount for students</h5>
-                <h6>USE CODE: Colorlib</h6>
-            </div>
-        </section>
-
+    <?php include('login.php') ?>
         <!-- <<<<<<<<<<<<<<<<<<<< Breadcumb Area Start <<<<<<<<<<<<<<<<<<<< -->
         <div class="breadcumb_area">
             <div class="container">
@@ -108,11 +33,11 @@
                     <div class="col-12">
                         <ol class="breadcrumb d-flex align-items-center">
                             <li class="breadcrumb-item"><a href="#">Home</a></li>
-                            <li class="breadcrumb-item"><a href="60cases.html">60% Cases</a></li>
+                            <li class="breadcrumb-item"><a href="60cases.php">60% Cases</a></li>
                             <li class="breadcrumb-item active">60% Frosted Acrylic Case</li>
                         </ol>
                         <!-- btn -->
-                        <a href="cases-shop.html" class="backToHome d-block"><i class="fa fa-angle-double-left"></i> Back to Cases</a>
+                        <a href="cases-shop.php" class="backToHome d-block"><i class="fa fa-angle-double-left"></i> Back to Cases</a>
                     </div>
                 </div>
             </div>
@@ -121,6 +46,8 @@
 
         <!-- <<<<<<<<<<<<<<<<<<<< Single Product Details Area Start >>>>>>>>>>>>>>>>>>>>>>>>> -->
         <section class="single_product_details_area section_padding_0_100">
+        <div class="product">
+          <div class="simpleCart_shelfItem">
             <div class="container">
                 <div class="row">
 
@@ -129,35 +56,35 @@
                             <div id="product_details_slider" class="carousel slide" data-ride="carousel">
 
                                 <ol class="carousel-indicators">
-                                    <li class="active" data-target="#product_details_slider" data-slide-to="0" style="background-image: url(img/product-img/cases/60%/white-acryllic.jpg);">
+                                    <li class="active" data-target="#product_details_slider" data-slide-to="0" style="background-image: url(img/product-img/cases/60/white-acryllic.jpg);">
                                     </li>
-                                    <li data-target="#product_details_slider" data-slide-to="1" style="background-image: url(img/product-img/cases/60%/black-acryllic.jpg);">
+                                    <li data-target="#product_details_slider" data-slide-to="1" style="background-image: url(img/product-img/cases/60/black-acryllic.jpg);">
                                     </li>
-                                    <li data-target="#product_details_slider" data-slide-to="2" style="background-image: url(img/product-img/cases/60%/blue-acryllic.jpg);">
+                                    <li data-target="#product_details_slider" data-slide-to="2" style="background-image: url(img/product-img/cases/60/blue-acryllic.jpg);">
                                     </li>
-                                    <li data-target="#product_details_slider" data-slide-to="3" style="background-image: url(img/product-img/cases/60%/red-acyllic.jpg);">
+                                    <li data-target="#product_details_slider" data-slide-to="3" style="background-image: url(img/product-img/cases/60/red-acyllic.jpg);">
                                     </li>
                                 </ol>
 
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
-                                        <a class="gallery_img" href="img/product-img/cases/60%/white-acryllic.jpg">
-                                        <img class="d-block w-100" src="img/product-img/cases/60%/white-acryllic.jpg" alt="First slide">
+                                        <a class="gallery_img" href="img/product-img/cases/60/white-acryllic.jpg">
+                                        <img class="d-block w-100" src="img/product-img/cases/60/white-acryllic.jpg" alt="First slide">
                                     </a>
                                     </div>
                                     <div class="carousel-item">
-                                        <a class="gallery_img" href="img/product-img/cases/60%/black-acryllic.jpg">
-                                        <img class="d-block w-100" src="img/product-img/cases/60%/black-acryllic.jpg" alt="Second slide">
+                                        <a class="gallery_img" href="img/product-img/cases/60/black-acryllic.jpg">
+                                        <img class="d-block w-100" src="img/product-img/cases/60/black-acryllic.jpg" alt="Second slide">
                                     </a>
                                     </div>
                                     <div class="carousel-item">
-                                        <a class="gallery_img" href="img/product-img/cases/60%/blue-acryllic.jpg">
-                                        <img class="d-block w-100" src="img/product-img/cases/60%/blue-acryllic.jpg" alt="Second slide">
+                                        <a class="gallery_img" href="img/product-img/cases/60/blue-acryllic.jpg">
+                                        <img class="d-block w-100" src="img/product-img/cases/60/blue-acryllic.jpg" alt="Second slide">
                                     </a>
                                     </div>
                                     <div class="carousel-item">
-                                        <a class="gallery_img" href="img/product-img/cases/60%/red-acyllic.jpg">
-                                        <img class="d-block w-100" src="img/product-img/cases/60%/red-acyllic.jpg" alt="Second slide">
+                                        <a class="gallery_img" href="img/product-img/cases/60/red-acyllic.jpg">
+                                        <img class="d-block w-100" src="img/product-img/cases/60/red-acyllic.jpg" alt="Second slide">
                                     </a>
                                     </div>
                                 </div>
@@ -184,14 +111,12 @@
 
                             <div class="widget size mb-50">
                                 <h6 class="widget-title">Colour</h6>
-                                <div class="widget-desc">
-                                    <ul>
-                                        <li><a href="#", class='medium-desc'>White</a></li>
-                                        <li><a href="#", class='medium-desc'>Black</a></li>
-                                        <li><a href="#">Blue</a></li>
-                                        <li><a href="#">Red</a></li>
-                                    </ul>
-                                </div>
+                                <select class ="item_size">
+                                    <option value="White">White</option>
+                                    <option value="Black">Black</option>
+                                    <option value="Red">Red</option>
+                                    <option value="Blue">Blue</option>
+                                </select>
                             </div>
 
                             <!-- Add to Cart Form -->
@@ -227,6 +152,8 @@
                     </div>
                 </div>
             </div>
+</div>
+</div>
         </section>
         <!-- <<<<<<<<<<<<<<<<<<<< Single Product Details Area End >>>>>>>>>>>>>>>>>>>>>>>>> -->
 
@@ -272,11 +199,11 @@
                                             <button type="submit" name="addtocart" value="5" class="cart-submit">Add to cart</button>
                                             <!-- Wishlist -->
                                             <div class="modal_pro_wishlist">
-                                                <a href="wishlist.html" target="_blank"><i class="ti-heart"></i></a>
+                                                <a href="wishlist.php" target="_blank"><i class="ti-heart"></i></a>
                                             </div>
                                             <!-- Compare -->
                                             <div class="modal_pro_compare">
-                                                <a href="compare.html" target="_blank"><i class="ti-stats-up"></i></a>
+                                                <a href="compare.php" target="_blank"><i class="ti-stats-up"></i></a>
                                             </div>
                                         </form>
 
@@ -316,7 +243,7 @@
                             <div class="single_gallery_item">
                                 <!-- Product Image -->
                                 <div class="product-img">
-                                    <img src="img/product-img/cases/60%/rosewood.jpg" alt="">
+                                    <img src="img/product-img/cases/60/rosewood.jpg" alt="">
                                     <div class="product-quicview">
                                         <a href="#" data-toggle="modal" data-target="#quickview"><i class="ti-plus"></i></a>
                                     </div>
@@ -326,7 +253,7 @@
                                     <h4 class="product-price">$49.99</h4>
                                     <p>60% Wooden Case</p>
                                     <!-- Add to Cart -->
-                                    <a href="60wooden.html" class="add-to-cart-btn">View Details</a>
+                                    <a href="60wooden.php" class="add-to-cart-btn">View Details</a>
                                 </div>
                             </div>
 
@@ -334,7 +261,7 @@
                             <div class="single_gallery_item">
                                 <!-- Product Image -->
                                 <div class="product-img">
-                                    <img src="img/product-img/cases/60%/white-acryllic.jpg" alt="">
+                                    <img src="img/product-img/cases/60/white-acryllic.jpg" alt="">
                                     <div class="product-quicview">
                                         <a href="#" data-toggle="modal" data-target="#quickview"><i class="ti-plus"></i></a>
                                     </div>
@@ -344,7 +271,7 @@
                                     <h4 class="product-price">$39.00</h4>
                                     <p>60% Frosted Acrylic Case</p>
                                     <!-- Add to Cart -->
-                                    <a href="60acrylic_case.html" class="add-to-cart-btn">View Details</a>
+                                    <a href="60acrylic_case.php" class="add-to-cart-btn">View Details</a>
                                 </div>
                             </div>
 
@@ -352,7 +279,7 @@
                             <div class="single_gallery_item">
                                 <!-- Product Image -->
                                 <div class="product-img">
-                                    <img src="img/product-img/cases/60%/clear-plastic.jpg" alt="">
+                                    <img src="img/product-img/cases/60/clear-plastic.jpg" alt="">
                                     <div class="product-quicview">
                                         <a href="#" data-toggle="modal" data-target="#quickview"><i class="ti-plus"></i></a>
                                     </div>
@@ -362,7 +289,7 @@
                                     <h4 class="product-price">$19.99</h4>
                                     <p>60% Plastic Cases</p>
                                     <!-- Add to Cart -->
-                                    <a href="60plastic_case.html" class="add-to-cart-btn">View Details</a>
+                                    <a href="60plastic_case.php" class="add-to-cart-btn">View Details</a>
                                 </div>
                             </div>
                         </div>
@@ -392,7 +319,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
                     <div class="col-12 col-sm-6 col-md-3 col-lg-2">
                         <div class="single_footer_area">
                             <ul class="footer_widget_menu">
-                                <li><a href="#">About</a></li>
+                                <li><a href="map.php">Site Map</a></li>
                                 <li><a href="#">Blog</a></li>
                                 <li><a href="#">Faq</a></li>
                                 <li><a href="#">Returns</a></li>
@@ -414,19 +341,20 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
                     <!-- Single Footer Area Start -->
                     <div class="col-12 col-lg-5">
                         <div class="single_footer_area">
-                          <div class="footer_heading mb-30">
-                            <h6>Subscribe to our newsletter</h6>
-                          </div>
-                          <div class="subscribtion_form">
-                            <form action="#" method="post"> 
-                              <input name="email" class="mail" placeholder="Your email here" type="email">
-                              <button type="submit" name="email-submit" class="submit">Subscribe</button> 
-                            </form>
-                          </div>
+                            <div class="footer_heading mb-30">
+                                <h6>Subscribe to our newsletter</h6>
+                            </div>
+                            <div class="subscribtion_form">
+                                <form action="#" method="post">
+                                    <input type="email" name="mail" class="mail" placeholder="Your email here">
+                                    <button type="submit" class="submit">Subscribe</button>
+                                </form>
+                            </div>
                         </div>
-                      </div>
                     </div>
-                    <div class="line"></div>
+                </div>
+                <div class="line"></div>
+
                 <!-- Footer Bottom Area Start -->
                 <div class="footer_bottom_area">
                     <div class="row">
