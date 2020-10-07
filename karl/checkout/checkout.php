@@ -1,4 +1,4 @@
-<?php include('login.php') ?>
+<?php include('../Login.php'); ?>
 <html lang="en">
 
 <head>
@@ -240,7 +240,7 @@
                                     </div>
                                 </div>
                                     
-                            </form>
+                                </form>
                             <!--Checkout-->
                             <div class="checkout">
                                 <a href="javascript:;" class="simpleCart_checkout">Place Order</a>
