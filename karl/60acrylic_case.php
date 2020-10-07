@@ -27,7 +27,7 @@
 
 <body>
 
-    <?php include('home.php') ?>
+    <?php include('menu.php') ?>
         <!-- <<<<<<<<<<<<<<<<<<<< Breadcumb Area Start <<<<<<<<<<<<<<<<<<<< -->
         <div class="breadcumb_area">
             <div class="container">
