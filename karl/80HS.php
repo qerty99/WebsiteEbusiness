@@ -20,7 +20,7 @@
     <link href="css/responsive.css" rel="stylesheet">
   </head>
   <body>
-   <?php include('menu.php');
+   <?php include('menu.php'); ?>
       <!-- <<<<<<<<<<<<<<<<<<<< Breadcumb Area Start <<<<<<<<<<<<<<<<<<<< -->
       <div class="breadcumb_area">
         <div class="container">
